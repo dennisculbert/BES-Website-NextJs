@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+* {
+  font-family: Montserrat, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.subscribe-btn {
+  color: #fff !important;
+  background: #2e6091 !important;
+  cursor: pointer;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  border-radius: 4px;
+}
+
+// Components
+@import "components/header";
+@import "components/footer";
+@import "components/home";
+@import "components/about";
+@import "components/blogs";
+@import "components/blog-details";
+@import "components/case-study";
+@import "components/case-study-details";
+@import "components/services.scss";
+@import "components/service-details";
+@import "components/contact";
+@import "components/privacy-policy";
+@import "components/terms";

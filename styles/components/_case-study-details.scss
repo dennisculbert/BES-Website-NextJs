@@ -1,0 +1,467 @@
+// CASE STUDY BANNER START
+.study_banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  h1 {
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  .study_header {
+    width: 100%;
+    padding: 20px;
+
+    h2 {
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: bold;
+      font-size: 40px;
+    }
+    p {
+      color: #fff;
+      text-align: justify;
+      font-size: 16px;
+    }
+    .study-btn {
+      background-color: transparent;
+      color: white;
+      border: 1px solid #fff;
+      border-radius: 50px;
+      padding: 0.5rem 1.95rem !important;
+      margin-top: 10px;
+    }
+    .study-btn:hover {
+      background-color: white;
+      color: #005f9e;
+    }
+  }
+}
+// CASE STUDY BANNER END
+
+// CASE STUDY OBJECTIVE START
+.objective-part {
+  .study_objective {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+      font-family: "Montserrat", sans-serif !important;
+    }
+    p {
+      // color: #b5b5b5;
+      color: black;
+      text-align: justify;
+      font-size: 15px;
+    }
+  }
+}
+// CASE STUDY OBJECTIVE END
+
+// CASE STUDY WIREFRAME START
+.wireframe_study {
+  // padding-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.wireframe_complete_section {
+  .pos-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .img-pos-inside {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: unset !important;
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: contain !important;
+    padding: 20px 0px;
+  }
+
+  .case-study-image {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .img-class {
+    position: relative;
+  }
+
+  .main-wire-frame {
+    position: relative;
+    padding: 0;
+    background-color: #ebebeb;
+    margin-top: 0px !important;
+    margin-bottom: 200px !important;
+  }
+  .wireframe_section {
+    // display: flex;
+    .wireframe_study {
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif !important;
+      }
+      p {
+        // color: #b5b5b5;
+        color: black;
+        text-align: justify;
+        font-size: 15px;
+      }
+      .study-btn {
+        background-color: #005f9e;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0.5rem 3.95rem !important;
+        display: none;
+      }
+    }
+
+    .bringing_all {
+      padding: 20px 0px;
+      h1 {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif !important;
+      }
+      p {
+        color: #b5b5b5;
+        text-align: justify;
+        font-size: 15px;
+      }
+      .study-btn {
+        background-color: #005f9e;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0.5rem 3.95rem !important;
+        display: block;
+      }
+      .study-btn:hover {
+        background-color: white;
+        color: #005f9e;
+      }
+    }
+  }
+}
+// CASE STUDY OBJECTIVE END
+
+/******************* For IPAD PRO *****************************/
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+}
+
+/******************* For IPAD PRO *****************************/
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+}
+
+// ====================== for Ipad Responsiveness =============================
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  //Top Banner section
+  .study_banner {
+    h1 {
+      font-size: 24px;
+    }
+
+    .study_header h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px !important;
+      margin-bottom: 0px !important;
+      text-align: justify !important;
+    }
+  }
+  // Objective Part
+  .objective-part {
+    padding-left: 0px;
+
+    .study_objective {
+      // padding: 20px 30px;
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        margin: 1.5rem 0px !important;
+        font-size: 14px;
+      }
+    }
+  }
+
+  //Case Study Cards Section
+  .wireframe_complete_section {
+    // padding-bottom: 150px;
+    .main-wire-frame {
+      margin-bottom: 100px !important;
+    }
+
+    .case-study-cards {
+      margin: 0px;
+      // padding: 20px 30px;
+    }
+    .wireframe_study {
+      padding-top: 50px;
+      padding-bottom: 0px;
+    }
+    .wireframe_study h1 {
+      font-size: 30px !important;
+    }
+
+    .wireframe_section {
+      .wireframe_study h1 {
+        font-size: 24px !important;
+      }
+      p {
+        font-size: 14px !important;
+      }
+
+      .bringing_all {
+        h1 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .study-btn {
+          margin: 20px 0px;
+        }
+      }
+    }
+
+    .case-study-image {
+      height: 400px;
+    }
+
+    .case-study-image-left {
+      height: 400px;
+    }
+
+    // .odd{
+    //   background-color: #fff;
+    // }
+
+    .img-pos-inside {
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wireframe_study {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .wireframe_complete_section .main-wire-frame {
+    margin-bottom: 50px !important;
+  }
+  .wireframe_complete_section .img-class {
+    position: relative;
+    padding-bottom: 50px;
+  }
+  .wireframe_complete_section {
+    margin-bottom: 50px;
+  }
+
+  //Top Banner section
+  .study_banner {
+    h1 {
+      font-size: 22px;
+    }
+
+    .study_header h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 12px !important;
+      margin-bottom: 0px !important;
+      text-align: center !important;
+    }
+  }
+
+  //  Button of banner section
+
+  .study_banner {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .study_banner .study_header .study-btn {
+    padding: 0.5rem 2.95rem !important;
+    margin: 30px 0px !important;
+  }
+
+  //  Button of banner section
+
+  .study_banner {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .study_banner .study_header .study-btn {
+    padding: 0.5rem 2.95rem !important;
+    margin: 30px 0px !important;
+  }
+
+  //  Button of banner section
+
+  .study_banner {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .study_banner .study_header .study-btn {
+    padding: 0.5rem 2.95rem !important;
+    margin: 30px 0px !important;
+  }
+
+  // Objective Part
+
+  .objective-part {
+    padding-left: 0px;
+
+    .study_objective {
+      // padding: 20px 30px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        margin: 1.5rem 0px !important;
+        font-size: 12px;
+      }
+    }
+  }
+
+  //Case Study Cards Section
+  .wireframe_complete_section {
+    // padding-bottom: 150px;
+
+    .case-study-cards {
+      margin: 0px;
+      flex-direction: column-reverse;
+      // padding: 20px 30px;
+    }
+
+    .wireframe_study h1 {
+      font-size: 22px !important;
+    }
+
+    .wireframe_section {
+      .wireframe_study h1 {
+        font-size: 22px !important;
+      }
+      p {
+        font-size: 12px !important;
+      }
+      .bringing_all {
+        text-align: center;
+      }
+      .bringing_all h1 {
+        font-size: 22px;
+        text-align: left;
+      }
+    }
+
+    .case-study-image,
+    .case-study-image-left {
+      position: relative;
+      width: 100%;
+      top: 0;
+      right: 0px;
+      left: 0px;
+      transform: unset;
+      height: 300px;
+    }
+
+    // .odd{
+    //   background-color: #fff;
+    // }
+
+    .img-pos-inside {
+      top: 0px !important;
+    }
+  }
+}
+
+.main-bringIt {
+  background-color: #ebebeb;
+  margin-bottom: 200px;
+}
+
+.bringIt-details h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif !important;
+}
+.bringIt-details p {
+  /* color: #b5b5b5; */
+  color: black;
+  text-align: justify;
+  font-size: 15px;
+}
+.image-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bringIt-image {
+  width: 100%;
+}
+
+.bringIt-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .bringIt-details h1 {
+    font-size: 24px;
+  }
+
+  .bringIt-details p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .bringIt-details h1 {
+    font-size: 24px;
+  }
+
+  .bringIt-details p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bringIt-details h1 {
+    font-size: 22px;
+  }
+  .bringIt-details p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,489 @@
+.contactspacer {
+  padding-top: 35%;
+  background-color: #f0f0f0;
+}
+
+// CONTACT-PAGE HEADER START
+.contact_page {
+  height: 500px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  .contact_top {
+    margin-top: 14%;
+    .contact_content {
+      font-family: "Montserrat", sans-serif !important;
+      .contact_header {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 50px !important;
+      }
+      p {
+        color: #fff;
+        font-size: 16px;
+        text-align: justify;
+      }
+    }
+    .contact_img {
+      img {
+        position: absolute;
+        top: 0px;
+        right: -60px;
+      }
+    }
+  }
+}
+// CONTACT-PAGE HEADER END
+
+// CONTACT-PAGE FORM START
+.ContactUs_page {
+  .footer {
+    // padding-top: 17%;
+    .contact_us {
+      display: none;
+    }
+  }
+}
+.form-main {
+  position: relative;
+}
+.Contact_form {
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  left: 50%;
+  transform: translate(-48%, -25%);
+  box-shadow: 3px 3px 13px #979494;
+
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  // FORM LEFT SIDE START
+  .contact_leftSide {
+    background-color: #fff;
+    padding: 20px 20px;
+    label {
+      font-weight: bold;
+      color: grey;
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 25px;
+
+      font-weight: bold;
+    }
+    input {
+      border: 0;
+      width: 100%;
+      height: 45px;
+      outline: none !important;
+      border-bottom: 1px solid grey;
+      font-size: 11px;
+      // font-weight: 600;
+      // color: grey;
+    }
+    textarea {
+      border: 0;
+      width: 90%;
+      height: 80px;
+      font-size: 11px;
+      outline: none !important;
+      resize: none;
+      border-bottom: 1px solid grey;
+    }
+  }
+  // FORM LEFT SIDE END
+
+  // FORM RIGHT SIDE START
+  .contact_rightSide {
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/contactForm_right.png);
+    height: auto;
+    width: 100%;
+    color: #fff;
+    padding: 30px 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 25px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .right_list {
+      display: flex;
+      align-items: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: unset !important;
+    }
+    .right_list1 {
+      p {
+        padding: 15px 30px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 0 !important;
+      }
+      img {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+      }
+    }
+    .right_list2 {
+      p {
+        padding: 15px 20px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 0 !important;
+      }
+      img {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+      }
+    }
+    .right_list3 {
+      p {
+        padding: 15px 20px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 0 !important;
+      }
+      img {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+      }
+    }
+  }
+  // FORM RIGHT SIDE END
+}
+.form-btn {
+  padding: 15px !important;
+  height: 70px !important;
+  width: 70px !important;
+  margin-top: 30px;
+}
+.send-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.required:after {
+  content: "*";
+  color: #e54643;
+}
+
+// CONTACT-PAGE FORM START
+
+// *********************************************** MEDIA QUERY ****************************
+
+// *************** FOR MINI LAPTOP ***********************
+
+@media screen and (min-width: 1400px) {
+  .Contact_form .contact_leftSide {
+    padding: 50px 50px;
+  }
+  .Contact_form {
+    transform: translate(-48%, -20%);
+  }
+  .Contact_form .contact_rightSide .right_list1 p {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .contact_page {
+    .contact_top {
+      .contact_img {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// *************** For IPAD PRO ***************************
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  // Spacer
+  .contactspacer {
+    padding-top: 70%;
+  }
+
+  //  Banner
+  .contact_page {
+    height: 400px;
+  }
+
+  .contact_page .contact_top .contact_content .contact_header {
+    font-size: 30px !important;
+  }
+
+  .contact_page .contact_top .contact_content p {
+    font-size: 14px !important;
+  }
+
+  .Contact_form {
+    width: 90%;
+
+    h2 {
+      font-size: 22px;
+    }
+
+    // FORM LEFT SIDE START
+    .contact_leftSide {
+      label {
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      input {
+        font-size: 12px;
+      }
+
+      textarea {
+        font-size: 12px;
+      }
+    }
+
+    // FORM LEFT SIDE END
+    .contact_rightSide {
+      h1 {
+        font-size: 22px;
+      }
+
+      .right_list1 {
+        p {
+          padding: unset;
+          padding-top: 20px;
+          padding-left: 25px;
+          font-size: 12px;
+        }
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+      .right_list2 {
+        p {
+          padding: unset;
+          padding-left: 15px;
+          padding-top: 20px;
+          font-size: 12px;
+        }
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+      .right_list3 {
+        p {
+          padding: unset;
+          padding-left: 15px;
+          padding-top: 20px;
+          font-size: 12px;
+          word-break: break-all;
+        }
+        img {
+          width: 25px;
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  .ContactUs_page {
+    .contact_top {
+      .contact_img {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// ************************ FOR IPAD ***********************
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  // Spacer
+  .contactspacer {
+    padding-top: 50%;
+  }
+  //  Banner
+  .contact_page {
+    height: 400px;
+  }
+  .contact_page .contact_top .contact_content .contact_header {
+    font-size: 25px !important;
+  }
+  .contact_page .contact_top .contact_content p {
+    font-size: 14px !important;
+  }
+  .Contact_form {
+    width: 90%;
+    h2 {
+      font-size: 20px;
+    }
+    // FORM LEFT SIDE START
+    .contact_leftSide {
+      label {
+        font-size: 13px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      input {
+        font-size: 12px;
+      }
+
+      textarea {
+        font-size: 12px;
+      }
+    }
+
+    // FORM LEFT SIDE END
+    .contact_rightSide {
+      h1 {
+        font-size: 20px;
+      }
+      .right_list1 {
+        p {
+          padding: unset;
+          padding-left: 30px;
+          padding-top: 15px;
+          font-size: 10px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .right_list2 {
+        p {
+          padding: unset;
+          padding-left: 20px;
+          padding-top: 15px;
+          font-size: 10px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .right_list3 {
+        p {
+          padding: unset;
+          padding-left: 20px;
+          padding-top: 15px;
+          font-size: 10px;
+          word-break: break-all;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .ContactUs_page {
+    .contact_top {
+      .contact_img {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .contactspacer {
+    padding-top: 5%;
+  }
+  .contact_page {
+    height: 300px;
+    .contact_top {
+      margin-top: 30%;
+      .contact_content {
+        text-align: center;
+        .contact_header {
+          font-size: 22px !important;
+        }
+        p {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+      .contact_img {
+        display: none;
+      }
+    }
+  }
+  .form-main {
+    position: relative;
+    padding: 0;
+  }
+  .Contact_form {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    transform: unset !important;
+    margin: 0;
+    h2 {
+      font-size: 22px;
+    }
+    .contact_leftSide {
+      h1 {
+        font-size: 20px;
+      }
+      input {
+        height: 25px;
+      }
+    }
+    .contact_rightSide {
+      h1 {
+        font-size: 20px;
+      }
+      .right_list1 {
+        p {
+          // padding: unset;
+          padding-left: 23px;
+          font-size: 12px;
+        }
+        // img {
+        //   width: auto;
+        // }
+      }
+      .right_list2 {
+        p {
+          // padding: unset;
+          padding-left: 12px;
+        }
+      }
+      .right_list3 {
+        p {
+          // padding: unset;
+          padding-left: 12px;
+        }
+      }
+    }
+  }
+}

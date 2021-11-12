@@ -1,0 +1,77 @@
+.service-details-inner {
+  background-color: #2f609e;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  // text-align: center;
+}
+
+.service-details-heading {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 40px;
+}
+
+.service-details-button-wrapper {
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+
+  .service-details-talk-button {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.service-details-button-wrapper p:hover {
+  background-color: white;
+  color: #2f609e;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+/////////////////////////// Responsiveness Styling ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+// large devices (laptops and desktops, 1200px and down)
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .service-details-heading {
+    font-size: 25px !important;
+  }
+}
+
+// Medium devices (landscape tablets, 992px and down)
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .service-details-heading {
+    font-size: 22px !important;
+  }
+}
+
+// Medium devices (tablets, 768px and down)
+@media only screen and (max-width: 767px) {
+  .service-details-inner {
+    padding: 30px;
+  }
+
+  .service-details-button-wrapper {
+    padding-left: 0px;
+  }
+
+  .service-details-heading {
+    font-size: 17px !important;
+  }
+
+  .service-details-talk-button {
+    font-size: 14px !important;
+  }
+}
+
+@import "service-detail-sections/section-two";
+@import "service-detail-sections/section-four";
+@import "service-detail-sections/section-five";

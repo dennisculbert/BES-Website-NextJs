@@ -1,0 +1,293 @@
+// Background Color for Case Study
+
+div.caseStudy_products:nth-child(1) .mask {
+  background-color: #346ca1 !important;
+}
+div.caseStudy_products:nth-child(4) .mask {
+  background-color: #346ca1 !important;
+}
+div.caseStudy_products:nth-child(5) .mask {
+  background-color: #346ca1 !important;
+}
+div.caseStudy_products:nth-child(8) .mask {
+  background-color: #346ca1 !important;
+}
+div.caseStudy_products:nth-child(9) .mask {
+  background-color: #346ca1 !important;
+}
+div.caseStudy_products:nth-child(11) .mask {
+  background-color: #346ca1 !important;
+}
+
+div.caseStudy_products:nth-child(14) .mask {
+  background-color: #346ca1 !important;
+}
+
+div.caseStudy_products:nth-child(15) .mask {
+  background-color: #346ca1 !important;
+}
+
+div.caseStudy_products:nth-child(18) .mask {
+  background-color: #346ca1 !important;
+}
+
+div.caseStudy_products:nth-child(19) .mask {
+  background-color: #346ca1 !important;
+}
+
+//  For Black
+div.caseStudy_products:nth-child(2) .mask {
+  background-color: #000 !important;
+}
+div.caseStudy_products:nth-child(3) .mask {
+  background-color: #000 !important;
+}
+div.caseStudy_products:nth-child(6) .mask {
+  background-color: #000 !important;
+}
+div.caseStudy_products:nth-child(7) .mask {
+  background-color: #000 !important;
+}
+div.caseStudy_products:nth-child(10) .mask {
+  background-color: #000 !important;
+}
+
+div.caseStudy_products:nth-child(12) .mask {
+  background-color: #000 !important;
+}
+
+div.caseStudy_products:nth-child(13) .mask {
+  background-color: #000 !important;
+}
+
+div.caseStudy_products:nth-child(16) .mask {
+  background-color: #000 !important;
+}
+
+div.caseStudy_products:nth-child(17) .mask {
+  background-color: #000 !important;
+}
+
+div.caseStudy_products:nth-child(20) .mask {
+  background-color: #000 !important;
+}
+
+div.caseStudy_products:nth-child(even) {
+  transform: translateY(30px);
+}
+
+// Case Study CSS Start
+
+.caseStudy_productInner {
+  padding: 50px 0px 0px 0px;
+  .caseStudy_products {
+    position: relative;
+    // transition: 0.7s ease;
+    a {
+      text-decoration: none !important;
+      color: unset !important;
+      background-color: unset !important;
+    }
+
+    a:hover {
+      text-decoration: none !important;
+      color: unset !important;
+      background-color: unset !important;
+    }
+    .card-height {
+      height: 350px;
+    }
+    .mask {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      opacity: 0.7;
+      width: 95%;
+      height: 100%;
+      box-shadow: 0px 10px 20px 0px gray;
+      border-radius: 15px;
+    }
+
+    // .blue {
+    //   background-color: #346ca1;
+    // }
+
+    // .black {
+    //   background-color: #000;
+    // }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      box-shadow: 1px 1px 5px 0px;
+      border-radius: 15px;
+      opacity: 1;
+      transition: 0.5 ease;
+    }
+
+    .Product_CompanyName {
+      position: absolute;
+      top: 40%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      font-weight: bold;
+      color: white;
+      font-family: "Montserrat" !important;
+    }
+
+    .caseStudy_productsText {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      width: 70%;
+      background-color: #fff;
+      border-radius: 0px 0px 0px 15px;
+      padding: 10px 10px 0px 10px;
+      .productsText_title {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .productsText_description {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+      .case-btn {
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+  }
+  // .caseStudy_products:hover {
+  //   cursor: pointer;
+  //   transform: translateY(30px);
+  //   transition: 0.7s ease;
+  // }
+
+  .caseStudy_products .caseStudy_productsText {
+    display: block;
+  }
+}
+
+// ********************** MEDIA QUERY ************************
+
+@media screen and (min-width: 1400px) {
+  .caseStudy_productInner .caseStudy_products .mask {
+    width: 96%;
+  }
+  .caseStudy_productInner .caseStudy_products img {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+}
+
+// For IPAD PRO
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .caseStudy_products .Product_CompanyName {
+    font-size: 26px;
+  }
+  .caseStudy_productInner .caseStudy_products .mask {
+    width: 94%;
+  }
+}
+
+// MEDIA QUERY FOR IPAD
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  // Font Size for IPAD Start
+  .caseStudy_products .Product_CompanyName {
+    font-size: 18px;
+  }
+
+  .caseStudy_productInner
+    .caseStudy_products
+    .caseStudy_productsText
+    .productsText_title {
+    font-size: 14px;
+  }
+  .caseStudy_productInner
+    .caseStudy_products
+    .caseStudy_productsText
+    .productsText_description {
+    font-size: 11px;
+  }
+  p.case-btn {
+    font-size: 12px;
+  }
+
+  // Font Size for IPAD END
+  .caseStudy_productInner {
+    padding: 20px 0px 0px 0px;
+    .rightSide {
+      transform: none;
+    }
+
+    .caseStudy_products {
+      .mask {
+        width: 92%;
+      }
+      .card-height {
+        height: 300px;
+      }
+      img {
+        height: 300px;
+      }
+    }
+  }
+}
+
+// MEDIA QUERY FOR IPHONE
+
+@media screen and (max-width: 767px) {
+  // Font Size for Mobile Start
+  .caseStudy_products .Product_CompanyName {
+    font-size: 22px;
+  }
+  .caseStudy_productInner
+    .caseStudy_products
+    .caseStudy_productsText
+    .productsText_title {
+    font-size: 14px;
+  }
+  p.case-btn {
+    font-size: 12px;
+  }
+
+  // Font Size for Mobile END
+  .caseStudy_productInner {
+    padding: 20px 0px 0px 0px;
+
+    .rightSide {
+      transform: none;
+    }
+
+    .caseStudy_products {
+      .mask {
+        width: 92%;
+      }
+      .card-height {
+        height: 250px;
+      }
+
+      img {
+        height: 250px;
+      }
+    }
+  }
+
+  .caseStudy_productInner {
+    .caseStudy_products {
+      .caseStudy_productsText {
+        .productsText_description {
+          display: none;
+        }
+      }
+    }
+  }
+  div.caseStudy_products:nth-child(even) {
+    transform: unset;
+  }
+}

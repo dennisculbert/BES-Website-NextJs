@@ -1,0 +1,499 @@
+.footer-container {
+  position: relative;
+}
+.spacer {
+  padding-top: 15%;
+}
+.footer {
+  background-color: #f0f0f0;
+  position: relative;
+  .footer_socialIcons {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer_icons {
+    width: 30px;
+    margin-right: 8px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: unset;
+    color: #8a8a8a;
+    font-size: 20px;
+    line-height: 2;
+  }
+  .footer_logo {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+  }
+  .footer-textarea {
+    margin-top: 20px;
+  }
+  .footer-textarea p {
+    font-size: 14px;
+    color: #8a8a8a;
+    margin-bottom: 0px !important;
+  }
+  .links {
+    ul {
+      padding-top: 40px;
+      font-size: 18px;
+    }
+    li {
+      font-size: 14px;
+    }
+    a {
+      text-decoration: unset;
+      color: unset;
+    }
+
+    a:hover {
+      color: #005f9e;
+    }
+  }
+  .contact {
+    ul {
+      padding-top: 40px;
+      font-size: 18px;
+    }
+    li {
+      word-break: break-word;
+      font-size: 14px;
+    }
+    a {
+      text-decoration: unset;
+      color: unset;
+    }
+    a:hover {
+      color: #005f9e;
+    }
+  }
+  .support {
+    ul {
+      padding-top: 40px;
+      font-size: 18px;
+    }
+    li {
+      font-size: 14px;
+    }
+    a {
+      text-decoration: unset;
+      color: unset;
+    }
+
+    a:hover {
+      color: #005f9e;
+    }
+  }
+}
+
+.contact_us {
+  border-radius: 20px;
+  background-color: #005f9e;
+  color: white;
+  padding: 50px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -100px;
+  .email_input_field {
+    padding: 2.375rem 0.75rem;
+    border-radius: 50px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30%;
+  }
+  .email_send_btn {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    padding: 0.5rem 2.75rem;
+    border-radius: 50px;
+    background-color: #005f9e;
+    z-index: 10;
+  }
+  .contact-details {
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+      width: 72%;
+    }
+  }
+}
+.footer_last_row {
+  padding: 20px;
+  background-color: #005f9e;
+  color: white;
+  font-size: 12px;
+  span {
+    padding-right: 5px;
+    color: white;
+  }
+  .privacy {
+    border-right: 2px solid white;
+    padding-right: 20px;
+    color: white;
+  }
+  .terms {
+    padding-left: 20px;
+    color: white;
+  }
+}
+.footer_socialIcons_last {
+  display: flex !important;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: none !important;
+  img {
+    height: 40px;
+  }
+}
+.footer_icons:hover {
+  background-color: white;
+  border-radius: 50%;
+}
+.send-message-text-area {
+  display: flex;
+}
+
+.send-btn {
+  margin-left: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.footer-main-column {
+  display: flex;
+  justify-content: space-around;
+}
+
+/****************** Media Query ***********************/
+@media screen and (min-width: 1400px) {
+  .footer_last_row {
+    font-size: 14px !important;
+  }
+}
+
+/******************  For mini Laptop Start   **********************/
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+}
+
+/******************  For mini Laptop End   **********************/
+
+/******************* For IPAD PRO *****************************/
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .links {
+    ul {
+      font-size: 16px !important;
+    }
+
+    li {
+      font-size: 13px !important;
+    }
+  }
+
+  .contact {
+    ul {
+      font-size: 16px !important;
+    }
+
+    li {
+      word-break: break-word;
+      font-size: 13px !important;
+    }
+  }
+
+  .support {
+    ul {
+      font-size: 16px !important;
+    }
+
+    li {
+      font-size: 13px !important;
+    }
+  }
+  .contact-details p {
+    width: 100% !important;
+  }
+  .contact_us .email_send_btn {
+    padding: 0.5rem 1.75rem !important;
+  }
+}
+
+/******************* For IPAD PRO *****************************/
+
+/******************* For IPAD start *****************************/
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .spacer {
+    padding-top: 25%;
+  }
+  .footer .footer_icons {
+    width: 25px !important;
+    margin-right: 5px;
+  }
+  .contact_us {
+    .email_input_field {
+      padding: 25px !important;
+    }
+    .email_send_btn {
+      position: relative !important;
+      font-size: 14px;
+      right: 0px !important;
+      top: 0px !important;
+      padding: 5px 20px !important;
+      border-radius: 50px;
+      background-color: white;
+      color: #005f9e;
+    }
+
+    .sendus-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .links {
+    ul {
+      font-size: 12px !important;
+    }
+
+    li {
+      font-size: 10px !important;
+    }
+  }
+
+  .contact {
+    ul {
+      font-size: 12px !important;
+    }
+
+    li {
+      word-break: break-word;
+      font-size: 10px !important;
+    }
+  }
+
+  .support {
+    ul {
+      font-size: 12px !important;
+    }
+
+    li {
+      font-size: 10px !important;
+    }
+  }
+  .contact-details p {
+    width: 100% !important;
+  }
+  .footer .footer-textarea p {
+    font-size: 12px;
+  }
+}
+
+/******************* For IPAD End *****************************/
+
+/******************* For Mobile start *****************************/
+@media screen and (max-width: 767px) {
+  .contact_us {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    top: -82px;
+    .email_input_field {
+      padding: 20px !important;
+    }
+    .email_send_btn {
+      position: relative;
+      font-size: 12px;
+      right: 0px !important;
+      top: 0px !important;
+      padding: 5px 15px !important;
+      border-radius: 50px;
+      background-color: white;
+      color: #005f9e;
+      z-index: 0;
+    }
+    .sendus-btn {
+      width: 100%;
+      text-align: center;
+    }
+    .contact-details {
+      h3 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 12px;
+        width: 100% !important;
+      }
+    }
+  }
+  .footer-textarea p {
+    font-size: 13px !important;
+    text-align: justify;
+  }
+
+  .footer {
+    padding-top: 5%;
+    padding-bottom: 0 !important;
+
+    ul {
+      font-size: 13px;
+    }
+
+    .contact-box {
+      padding: 0;
+    }
+
+    .contact_us {
+      top: 0px;
+      position: relative;
+    }
+
+    .footer_logo {
+      width: 80% !important;
+    }
+
+    .footer_socialIcons {
+      margin-top: 10px;
+      display: none;
+    }
+
+    .li {
+      padding-top: 15px;
+    }
+
+    .links {
+      // padding-top: 10px;
+
+      strong {
+        font-size: 15px;
+      }
+
+      ul {
+        padding-top: 10px;
+
+        li {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .support {
+      strong {
+        font-size: 15px;
+      }
+
+      ul {
+        padding-top: 10px;
+
+        li {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .contact {
+      strong {
+        font-size: 15px !important;
+      }
+
+      ul {
+        padding-top: 10px;
+
+        link {
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+
+  .footer_socialIcons_last {
+    display: flex !important;
+    background-color: #f0f0f0;
+    justify-content: space-evenly;
+  }
+
+  .footerText_last {
+    justify-content: center;
+    font-size: 12px;
+    p {
+      font-size: 12px;
+    }
+    .footerText_right {
+      margin-left: 0 !important;
+    }
+  }
+  // .send-btn {
+  //   width: 30%;
+  // }
+
+  .footer-main-column {
+    flex-direction: row-reverse;
+  }
+  .footer_socialIcons_last img {
+    height: 35px;
+  }
+}
+//  For More Small Devices
+@media screen and (max-width: 380px) {
+  .links {
+    // padding-top: 10px;
+
+    strong {
+      font-size: 14px !important;
+    }
+
+    ul {
+      padding-top: 10px;
+
+      li {
+        font-size: 10px !important;
+      }
+    }
+  }
+
+  .support {
+    strong {
+      font-size: 14px !important;
+    }
+
+    ul {
+      padding-top: 10px;
+
+      li {
+        font-size: 10px !important;
+      }
+    }
+  }
+
+  .contact {
+    strong {
+      font-size: 14px !important;
+    }
+
+    link {
+      font-size: 10px !important;
+    }
+  }
+  .footer .contact li {
+    word-break: break-word;
+    font-size: 10px;
+  }
+  .footerText_last p {
+    font-size: 10px !important;
+  }
+  .footer_socialIcons_last img {
+    height: 30px;
+  }
+
+  .footer_last_row {
+    font-size: 10px !important;
+  }
+}
+/******************* For Mobile End *****************************/

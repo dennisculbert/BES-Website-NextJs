@@ -1,0 +1,366 @@
+.form-control:focus {
+  outline: 0;
+  box-shadow: unset;
+}
+.blog-input {
+  width: 150%;
+}
+.blog-input .dropdown-item {
+  font-size: 12px;
+}
+// BLOG HEADER START
+.blog_page {
+  padding: 150px 0px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  // background-image: url(../../assets/blogs_banner.png);
+  .blogs_header {
+    h1 {
+      font-size: 50px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    p {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .searchbar_main {
+      display: flex;
+      justify-content: center;
+      input {
+        font-size: 14px;
+        border: none;
+        background-color: #fff;
+        padding-left: 20px;
+        outline: none !important;
+        color: #000;
+      }
+      .searchbar_input {
+        width: 100%;
+        padding-right: 20px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      .btn_search {
+        border: none;
+        border-radius: unset;
+        background-color: #fff;
+        padding-right: 10px;
+        padding-left: 20px;
+        height: 60px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        .search_icon {
+          font-size: 40px;
+          color: #005f9e !important;
+        }
+      }
+    }
+  }
+}
+// BLOG HEADER END
+
+// BLOG TREND START
+.trend_div {
+  padding: 50px 0px;
+  .blog-cover {
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+    border: 1px solid #dfd8d8;
+  }
+  .trend_banner {
+    position: absolute;
+    font-size: 20px;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    background-color: #005f9e;
+    padding: 5px 5px;
+    font-weight: normal !important;
+  }
+  p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px !important;
+  }
+  .subscriptionImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .trend_form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    input {
+      border-radius: 20px;
+      background-color: #fff !important;
+      width: 100%;
+      height: 35px;
+      margin-bottom: 5px;
+      outline: none !important;
+      padding-left: 15px;
+      font-size: 12px;
+      border: 1px solid grey;
+    }
+    .subscribe_trend {
+      background-color: #005f9e;
+      font-family: "Montserrat" !important;
+      width: 50%;
+      border-radius: 30px;
+      padding: 10px 0px;
+      color: #fff;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}
+// BLOG TREND END
+
+// BLOG PRODUCT START
+.blogProduct_blogs {
+  position: relative;
+
+  .blog-img-wrapper {
+    width: 100%;
+    // height: 450px;
+    margin-bottom: 30px;
+    // padding: 0px 15px;
+    overflow: hidden;
+    position: relative;
+  }
+  img {
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover;
+    border: 1px solid #dfd8d8;
+  }
+
+  .blogProduct_TrendImages {
+    display: none;
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+    max-width: 70%;
+    font-size: 15px;
+    top: 0;
+    color: #fff;
+    background-color: #005f9e;
+    padding: 5px 10px;
+    // margin-left: 0px;
+    // margin-right: 15px;
+  }
+}
+.blogProduct_blogs:hover {
+  .blogProduct_TrendImages {
+    display: block;
+  }
+}
+// BLOG PRODUCT END
+
+// BLOG PAGINATION START
+.pagination {
+  margin-top: 40px;
+  margin-bottom: 150px;
+  justify-content: center;
+
+  .page-number {
+    cursor: pointer;
+  }
+
+  .page-number.active {
+    .page-link {
+      background-color: #005f9e;
+      color: #fff;
+    }
+  }
+
+  .page-link {
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 3px;
+    color: #005f9e;
+    background-color: #fff;
+    border: 2px solid #005f9e;
+  }
+}
+.required:after {
+  content: "*";
+  color: #e54643;
+}
+// BLOG PAGINATION END
+
+// =================== Media Query START========================================  //
+
+@media screen and (min-width: 1400px) {
+  .trend_div .subscriptionImage {
+    height: 250px !important;
+  }
+  .trend_div .blog-cover {
+    height: 450px !important;
+  }
+}
+
+// For MINI LAPTOP
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+}
+// FOR IPAD PRO
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .blogs_header h1 {
+    font-size: 30px !important;
+  }
+
+  .blogs_header p {
+    font-size: 18px !important;
+  }
+  .blogProduct_blogs img {
+    width: 100% !important;
+    height: 350px !important;
+    object-fit: cover;
+  }
+  .blogProduct_blogs .blogProduct_TrendImages {
+    display: block;
+    font-size: 14px;
+  }
+}
+// FOR IPAD
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .blogs_header h1 {
+    font-size: 25px !important;
+  }
+
+  .blogs_header p {
+    font-size: 16px !important;
+  }
+  // BLOG PRODUCT START
+  .blogProduct_blogs {
+    img {
+      width: 100% !important;
+      height: 250px !important;
+      object-fit: cover;
+    }
+
+    .blogProduct_TrendImages {
+      display: block;
+      font-size: 13px;
+    }
+  }
+  // Subscription
+  .trend_div {
+    padding: 50px 0px;
+  }
+  .trend_div p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px !important;
+    font-size: 13px;
+  }
+  .trend_div .subscriptionImage {
+    height: 100px;
+  }
+  .trend_div .trend_form {
+    padding: 0px 10px !important;
+  }
+  .trend_div .trend_form .subscribe_trend {
+    width: 60%;
+    font-size: 12px;
+  }
+  .trend_div .blog-cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  // Pagination
+  .pagination {
+    margin-bottom: 150px;
+  }
+}
+// FOR MOBILE
+@media (max-width: 767px) {
+  .blog_page {
+    padding: 50px 0px !important;
+  }
+  .blogs_header h1 {
+    font-size: 22px !important;
+  }
+  .blogs_header p {
+    font-size: 12px !important;
+  }
+  // BLOG PRODUCT START
+  .blogProduct_blogs {
+    img {
+      width: 100% !important;
+      height: 200px !important;
+      object-fit: cover;
+    }
+
+    .blogProduct_TrendImages {
+      display: block;
+      font-size: 8px;
+      padding: 5px 5px 3px 5px;
+      font-size: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box !important;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    .blog-img-wrapper {
+      margin-bottom: 10px !important;
+    }
+  }
+
+  .searchbar_main {
+    width: 90% !important;
+    margin: 5%;
+    input {
+      font-size: 14px !important;
+    }
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    .searchbar_input {
+      font-size: 10px;
+    }
+    .btn_search {
+      height: 40px !important;
+      padding-left: 10px !important;
+    }
+  }
+  // Subscription
+  .trend_div {
+    padding: 30px 0;
+  }
+  .trend_div .blog-cover {
+    height: 200px !important;
+  }
+  .trend_div .trend_form .subscribe_trend {
+    width: 35%;
+    font-size: 12px;
+  }
+  .trend_div .trend_form {
+    padding: 0px 10px !important;
+  }
+
+  // Pagination
+  .pagination {
+    margin-bottom: 110px;
+  }
+}
+// =================== MOBILE VIEW END========================================  //
+
+//Search Input Blog Header
+.rbt-input {
+  height: 100%;
+  border-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}

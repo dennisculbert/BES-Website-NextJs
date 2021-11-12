@@ -1,0 +1,175 @@
+section.overview-block-pb-services:nth-child(even) .services-row {
+  flex-direction: row-reverse !important;
+}
+section.overview-block-pb-services:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+// SERVICES-PAGE HEADER START
+.services-row {
+  display: flex;
+}
+.services {
+  background-image: none;
+  background-color: #005f9e;
+  .services_top {
+    margin-top: 12%;
+    padding-bottom: 100px;
+    .services_content {
+      font-family: "Montserrat", sans-serif !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .services_header {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 50px !important;
+      }
+      p {
+        color: #fff;
+        text-align: justify;
+      }
+    }
+    .services_img {
+      img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+      }
+    }
+  }
+}
+// SERVICES-PAGE HEADER END
+
+// SERVICES-PAGE SECTION START
+.service-page-product-section {
+  padding: 0px 0px 200px 0px;
+  .overview-block-pb-services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+    }
+    .service_btn {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+// SERVICES-PAGE SECTION END
+
+@media screen and (min-width: 1400px) {
+  // .service-page-product-section .overview-block-pb-services {
+  //   padding-top: 70px;
+  //   padding-bottom: 70px;
+  // }
+  .service-page-product-section .overview-block-pb-services img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+}
+
+// For IPAD PRO
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .services .services_top {
+    padding-bottom: 50px;
+  }
+}
+
+// MEDIA QUERY FOR IPAD
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .services {
+    .services_top {
+      margin-top: 5%;
+      padding-bottom: 20px !important;
+      .services_content {
+        p {
+          font-size: 14px;
+        }
+
+        .services_header {
+          font-size: 24px !important;
+        }
+      }
+
+      .services_img img {
+        height: 300px;
+      }
+    }
+  }
+
+  .service-page-product-section {
+    .overview-block-pb-services {
+      img {
+        height: 300px;
+      }
+    }
+  }
+  .service-page-product-section .our_vision_lastImg img {
+    padding: 0px !important;
+  }
+
+  .heading {
+    font-size: 24px !important;
+  }
+
+  .description {
+    font-size: 14px !important;
+  }
+}
+
+// MEDIA QUERY FOR IPHONE
+
+@media screen and (max-width: 767px) {
+  .services-row {
+    display: block;
+  }
+
+  .services_img {
+    position: unset !important;
+    padding-top: 10px;
+  }
+  .services {
+    .services_top {
+      // margin-top: 30%;
+      padding-bottom: 50px !important;
+
+      .services_content {
+        text-align: center;
+        p {
+          font-size: 12px;
+          text-align: center;
+        }
+
+        .services_header {
+          font-size: 22px !important;
+        }
+      }
+      .services_img img {
+        height: 200px;
+      }
+    }
+  }
+
+  .service-page-product-section {
+    padding: 0px 0px 150px 0px;
+    .overview-block-pb-services {
+      img {
+        height: 200px;
+      }
+    }
+  }
+  .heading {
+    font-size: 22px !important;
+  }
+  .description {
+    font-size: 12px !important;
+  }
+}
