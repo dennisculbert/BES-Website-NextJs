@@ -99,7 +99,7 @@ function Header({ data }) {
                     : ""
                 }
               >
-                Blog
+                Blogs
               </a>
             </Link>
             <Link href="/about-us">

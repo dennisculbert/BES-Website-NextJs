@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import validator from "validator";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaTelegramPlane } from "react-icons/fa";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { API_URL, postContactFormData } from "../../apiServices";
 
 const contactMetro = "/img/contact_metro.png";
@@ -66,7 +66,6 @@ function ContactForm({ data }) {
 
   return (
     <Container className="form-main">
-      <ToastContainer className="toastify-main" position="bottom-left" />
       <Row className="Contact_form">
         <Col md={7} className="px-0">
           <form onSubmit={handleSubmit} className="contact_leftSide">

@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
+import { toast, ToastContainer } from "react-toastify";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Spacer from "./spacer";
@@ -17,6 +18,7 @@ function Footer({ footerData, contactData, serviceData }) {
 
   return (
     <>
+      <ToastContainer className="toastify-main" position="bottom-left" />
       <Container fluid className="footer pb-5">
         <Container className="footer-container">
           {/* Blue colored contact box */}
@@ -172,13 +174,13 @@ function Footer({ footerData, contactData, serviceData }) {
                 All Rights Reserved.
               </p>
               <div className="d-flex ml-auto footerText_right">
-                <Link href="/PrivacyPolicy" target="_blank">
-                  <a>
+                <Link href="/privacy-policy">
+                  <a target="_blank">
                     <p className="mb-0 privacy">Privacy Policy</p>
                   </a>
                 </Link>
-                <Link href="/Terms-Condtion" target="_blank">
-                  <a>
+                <Link href="/terms-and-conditions">
+                  <a target="_blank">
                     <p className="mb-0 terms">Terms & Conditions</p>
                   </a>
                 </Link>
