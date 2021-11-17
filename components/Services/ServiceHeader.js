@@ -17,7 +17,7 @@ function ServiceHeader({ banner }) {
               <img
                 src={`${API_URL + banner.sectionImage.url}`}
                 className="header-img"
-                alt=""
+                alt={banner.sectionImage.filename}
               />
             </Col>
           </Row>

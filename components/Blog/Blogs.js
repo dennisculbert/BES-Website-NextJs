@@ -9,7 +9,10 @@ const renderBlog = (blog) => (
     <Link href={`/blogs/${encodeURIComponent(blog.title)}`}>
       <a>
         <div className="blog-img-wrapper">
-          <img src={API_URL + blog.blogThumnail.url} alt="trendimages" />
+          <img
+            src={API_URL + blog.blogThumnail.url}
+            alt={blog.blogThumnail.filename}
+          />
           <p className="blogProduct_TrendImages">{blog.title}</p>
         </div>
       </a>

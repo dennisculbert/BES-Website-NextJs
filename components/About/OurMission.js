@@ -10,7 +10,7 @@ function OurMission({ data }) {
             <div className="w-100">
               <img
                 src={`${API_URL + data.sectionImage.url}`}
-                alt="vision"
+                alt={data.sectionImage.filename}
                 className=""
               />
             </div>

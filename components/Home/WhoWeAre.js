@@ -18,7 +18,10 @@ function WhoWeAre({ data }) {
             </Link>
           </Col>
           <Col md={6} className="text-center who-image">
-            <img src={API_URL + data.sectionImage.url} alt="" />
+            <img
+              src={API_URL + data.sectionImage.url}
+              alt={data.sectionImage.filename}
+            />
           </Col>
         </Row>
       </Container>

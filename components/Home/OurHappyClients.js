@@ -76,7 +76,10 @@ function OurHappyClients({ happyClients }) {
                           }}
                         >
                           <div className="client-img">
-                            <img src={client.profile_photo_url} alt="" />
+                            <img
+                              src={client.profile_photo_url}
+                              alt={client.author_name}
+                            />
                           </div>
                         </Col>
                         <Col

@@ -31,7 +31,10 @@ const ServiceDetailsSectionFive = ({ services }) => {
                       href={`/services/${encodeURIComponent(item.heading)}`}
                     >
                       <a>
-                        <img src={API_URL + item.serviceIcon.url} alt="Icon" />
+                        <img
+                          src={API_URL + item.serviceIcon.url}
+                          alt={item.serviceIcon.filename}
+                        />
                       </a>
                     </Link>
                   </div>

@@ -10,7 +10,10 @@ const renderBlogDetails = (blogDetails, index) => (
     <Col xs={4} className="px-0">
       <Link href={`/blogs/${encodeURIComponent(blogDetails.title)}`}>
         <a>
-          <img src={API_URL + blogDetails.blogThumnail.url} alt="blogInner_3" />
+          <img
+            src={API_URL + blogDetails.blogThumnail.url}
+            alt={blogDetails.blogThumnail.filename}
+          />
         </a>
       </Link>
     </Col>

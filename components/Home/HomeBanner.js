@@ -30,7 +30,10 @@ function HomeBanner({ data }) {
             </div>
           </Col>
           <Col md={6} className="banner_img pt-md-5 pt-4">
-            <img src={API_URL + data.sectionImage.url} alt="" />
+            <img
+              src={API_URL + data.sectionImage.url}
+              alt={data.sectionImage.filename}
+            />
           </Col>
         </Row>
       </Container>

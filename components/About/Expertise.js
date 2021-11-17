@@ -21,7 +21,7 @@ function Expertise({ data }) {
             <img
               src={`${API_URL + data.sectionImage.url}`}
               className="w-100"
-              alt=""
+              alt={data.sectionImage.filename}
             />
           </div>
         </div>

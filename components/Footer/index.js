@@ -127,7 +127,7 @@ function Footer({ footerData, contactData, serviceData }) {
                         <img
                           className="footer_icons"
                           src={Linkedin}
-                          alt="facebook"
+                          alt="Linkedin"
                         />
                       </a>
                       <a
@@ -135,7 +135,11 @@ function Footer({ footerData, contactData, serviceData }) {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img className="footer_icons" src={insta} alt="insta" />
+                        <img
+                          className="footer_icons"
+                          src={insta}
+                          alt="instagram"
+                        />
                       </a>
                     </div>
                   </ul>

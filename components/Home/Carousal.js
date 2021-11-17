@@ -13,7 +13,7 @@ function Carousal({ portfolioImages = [] }) {
       showStatus={false}
     >
       {portfolioImages.map((item, i) => (
-        <img key={i} alt="" src={API_URL + item.url} />
+        <img key={i} alt="portfolio" src={API_URL + item.url} />
       ))}
     </Carousel>
   );

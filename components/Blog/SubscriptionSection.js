@@ -18,7 +18,7 @@ const SubscriptionSection = ({ data }) => (
                 <img
                   src={API_URL + data?.blogImage?.url}
                   className="blog-cover"
-                  alt=""
+                  alt={data?.blogImage?.filename}
                 />
                 <p className="trend_banner">Trends</p>
               </div>

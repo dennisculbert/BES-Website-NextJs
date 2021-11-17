@@ -45,6 +45,7 @@ function CaseStudy({ homeCaseStudy, caseStudyData }) {
                     <Card.Img
                       className="case_studyImg"
                       src={API_URL + item.company.logo.url}
+                      alt={item.company.filename}
                     />
                   </div>
                 </Card.Body>

@@ -33,7 +33,7 @@ function WhatWeDo({ whatWeDoData, services }) {
                           <div className="home_card-div">
                             <img
                               src={API_URL + service.serviceIcon.url}
-                              alt=""
+                              alt={service.serviceIcon.filename}
                             />
                           </div>
                           <Card.Title className="py-2 card_title">

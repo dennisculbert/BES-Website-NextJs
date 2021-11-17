@@ -11,7 +11,10 @@ const ServiceDetailsSecondSection = ({ data }) => (
           md={6}
           className="service-details-section-two-img d-flex justify-content-center align-items-center"
         >
-          <img src={API_URL + data.sectionImage.url} alt="" />
+          <img
+            src={API_URL + data.sectionImage.url}
+            alt={data.sectionImage.filename}
+          />
         </Col>
         <Col
           md={6}

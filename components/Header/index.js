@@ -61,9 +61,17 @@ function Header({ data }) {
       <Container>
         <Navbar.Brand href="/" className="navbar_Logo">
           {/* Logo for Desktop */}
-          <img className="logo-path" src={API_URL + link} alt="" />
+          <img
+            className="logo-path"
+            src={API_URL + link}
+            alt="beyond eris solutions logo"
+          />
           {/* Logo for Mobile */}
-          <img className="dark-logo" src={DarkLogo} alt="" />
+          <img
+            className="dark-logo"
+            src={DarkLogo}
+            alt="beyond eris solutions logo"
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           onClick={scrollUp}

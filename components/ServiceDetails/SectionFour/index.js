@@ -44,6 +44,7 @@ const ServiceDetailsSectionFour = ({ caseStudiesList, homeCaseStudy }) => (
                   <Card.Img
                     className="case_studyImg"
                     src={API_URL + item.company.logo.url}
+                    alt={item.company.logo.filename}
                   />
                 </div>
               </Card.Body>
