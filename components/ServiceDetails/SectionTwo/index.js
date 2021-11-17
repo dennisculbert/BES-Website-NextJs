@@ -14,6 +14,7 @@ const ServiceDetailsSecondSection = ({ data }) => (
           <img
             src={API_URL + data.sectionImage.url}
             alt={data.sectionImage.filename}
+            loading="lazy"
           />
         </Col>
         <Col

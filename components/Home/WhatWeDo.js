@@ -34,6 +34,7 @@ function WhatWeDo({ whatWeDoData, services }) {
                             <img
                               src={API_URL + service.serviceIcon.url}
                               alt={service.serviceIcon.filename}
+                              loading="lazy"
                             />
                           </div>
                           <Card.Title className="py-2 card_title">

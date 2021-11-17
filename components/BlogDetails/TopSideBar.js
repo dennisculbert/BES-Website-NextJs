@@ -13,6 +13,7 @@ const renderBlogDetails = (blogDetails, index) => (
           <img
             src={API_URL + blogDetails.blogThumnail.url}
             alt={blogDetails.blogThumnail.filename}
+            loading="lazy"
           />
         </a>
       </Link>
@@ -44,6 +45,7 @@ function TopSideBar({ blogs, blogPostData }) {
               src={`${API_URL + blogPostData?.blogImage?.url}`}
               alt="blogInner_1"
               className="w-100 blog_leftSide"
+              loading="lazy"
             />
           </div>
         </Col>

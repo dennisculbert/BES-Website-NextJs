@@ -31,7 +31,8 @@ const renderStudyCard = (item) => (
         <img
           src={`${API_URL + item.caseStudyImage.url}`}
           className="w-100"
-          alt="images1"
+          alt={item.caseStudyImage.filename}
+          loading="lazy"
         />
         <div className="mask" />
         <div className="content">

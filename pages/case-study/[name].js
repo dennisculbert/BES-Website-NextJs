@@ -33,7 +33,8 @@ function CaseStudyDetail({ data, header, footer, contact, services }) {
             <img
               className="case-study-image"
               src={`${API_URL + item.image.url}`}
-              alt="noImage"
+              alt={item.image.filename}
+              loading="lazy"
             />
           </div>
           <div

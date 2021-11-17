@@ -79,6 +79,7 @@ function OurHappyClients({ happyClients }) {
                             <img
                               src={client.profile_photo_url}
                               alt={client.author_name}
+                              loading="lazy"
                             />
                           </div>
                         </Col>

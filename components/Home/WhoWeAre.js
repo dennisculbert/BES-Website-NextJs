@@ -21,6 +21,7 @@ function WhoWeAre({ data }) {
             <img
               src={API_URL + data.sectionImage.url}
               alt={data.sectionImage.filename}
+              loading="lazy"
             />
           </Col>
         </Row>

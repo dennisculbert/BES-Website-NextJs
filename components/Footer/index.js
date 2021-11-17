@@ -33,7 +33,8 @@ function Footer({ footerData, contactData, serviceData }) {
                       <img
                         src={API_URL + footerData.logo.url}
                         className="footer_logo"
-                        alt=""
+                        alt="beyond eris solutions logo"
+                        loading="lazy"
                       />
                     </a>
                   </Link>
@@ -106,6 +107,7 @@ function Footer({ footerData, contactData, serviceData }) {
                           className="footer_icons"
                           src={facebook}
                           alt="facebook"
+                          loading="lazy"
                         />
                       </a>
                       <a
@@ -117,6 +119,7 @@ function Footer({ footerData, contactData, serviceData }) {
                           className="footer_icons"
                           src={twitter}
                           alt="twitter"
+                          loading="lazy"
                         />
                       </a>
                       <a
@@ -128,6 +131,7 @@ function Footer({ footerData, contactData, serviceData }) {
                           className="footer_icons"
                           src={Linkedin}
                           alt="Linkedin"
+                          loading="lazy"
                         />
                       </a>
                       <a
@@ -139,6 +143,7 @@ function Footer({ footerData, contactData, serviceData }) {
                           className="footer_icons"
                           src={insta}
                           alt="instagram"
+                          loading="lazy"
                         />
                       </a>
                     </div>
@@ -152,16 +157,36 @@ function Footer({ footerData, contactData, serviceData }) {
 
       <Row className="footer_socialIcons_last pt-3 pb-3 mx-0">
         <a href={footerData.facebookLink} target="_blank" rel="noreferrer">
-          <img className="footer_icons" src={`${facebook}`} alt="facebook" />
+          <img
+            className="footer_icons"
+            src={`${facebook}`}
+            alt="facebook"
+            loading="lazy"
+          />
         </a>
         <a href={footerData.twitterLink} target="_blank" rel="noreferrer">
-          <img className="footer_icons" src={`${twitter}`} alt="Twitter" />
+          <img
+            className="footer_icons"
+            src={`${twitter}`}
+            alt="Twitter"
+            loading="lazy"
+          />
         </a>
         <a href={footerData.linkedInLink} target="_blank" rel="noreferrer">
-          <img className="footer_icons" src={`${Linkedin}`} alt="LinkedIn" />
+          <img
+            className="footer_icons"
+            src={`${Linkedin}`}
+            alt="LinkedIn"
+            loading="lazy"
+          />
         </a>
         <a href={footerData.instagramLink} target="_blank" rel="noreferrer">
-          <img className="footer_icons" src={`${insta}`} alt="insta" />
+          <img
+            className="footer_icons"
+            src={`${insta}`}
+            alt="instagram"
+            loading="lazy"
+          />
         </a>
       </Row>
       <Container fluid className="footer_last_row">

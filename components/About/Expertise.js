@@ -22,6 +22,7 @@ function Expertise({ data }) {
               src={`${API_URL + data.sectionImage.url}`}
               className="w-100"
               alt={data.sectionImage.filename}
+              loading="lazy"
             />
           </div>
         </div>

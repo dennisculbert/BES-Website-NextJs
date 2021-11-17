@@ -12,6 +12,7 @@ const renderBlog = (blog) => (
           <img
             src={API_URL + blog.blogThumnail.url}
             alt={blog.blogThumnail.filename}
+            loading="lazy"
           />
           <p className="blogProduct_TrendImages">{blog.title}</p>
         </div>

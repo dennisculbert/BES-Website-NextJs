@@ -19,6 +19,7 @@ const SubscriptionSection = ({ data }) => (
                   src={API_URL + data?.blogImage?.url}
                   className="blog-cover"
                   alt={data?.blogImage?.filename}
+                  loading="lazy"
                 />
                 <p className="trend_banner">Trends</p>
               </div>
@@ -39,6 +40,7 @@ const SubscriptionSection = ({ data }) => (
                 src={blogRight}
                 alt="form_img"
                 className="subscriptionImage"
+                loading="lazy"
               />
               <MailchimpSubscribe
                 url={MAILCHIMP_URL}

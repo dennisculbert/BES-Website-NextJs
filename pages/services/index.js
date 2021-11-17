@@ -29,8 +29,8 @@ const renderService = (item) => (
               <a className="service_btn">
                 <img
                   src={API_URL + item.serviceImage.url}
-                  alt="vision"
-                  className=""
+                  alt={item.serviceImage.filename}
+                  loading="lazy"
                 />
               </a>
             </Link>

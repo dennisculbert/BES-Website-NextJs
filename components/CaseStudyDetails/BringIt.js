@@ -23,6 +23,7 @@ const BringIt = ({ data }) => (
                 className="case-study-image"
                 src={API_URL + data.image.url}
                 alt={data.image.filename}
+                loading="lazy"
               />
             </div>
           </Col>

@@ -185,23 +185,23 @@ function ContactForm({ data }) {
           <div className="contact_InnerRight">
             <h1>{data.heading}</h1>
             <div className="my-4">
-              <div className="row ">
+              <div className="row">
                 <div className="right_list right_list1 col-md-12">
-                  <img src={contactMetro} alt="img" />
+                  <img src={contactMetro} alt="metro" loading="lazy" />
                   <p>{data.address}</p>
                 </div>
               </div>
-              <div className="row ">
+              <div className="row">
                 <div className="right_list right_list2 col-md-12">
-                  <img src={contactPhone} alt="" />
+                  <img src={contactPhone} alt="phone" loading="lazy" />
                   <a href={`tel:+${data.phone}`}>
                     <p>+{data.phone}</p>
                   </a>
                 </div>
               </div>
-              <div className="row ">
+              <div className="row">
                 <div className="right_list right_list3 col-md-12">
-                  <img src={contactEmail} alt="" />
+                  <img src={contactEmail} alt="mail" loading="lazy" />
                   <a href={`mailto:${data.email}`}>
                     <p>{data.email}</p>
                   </a>

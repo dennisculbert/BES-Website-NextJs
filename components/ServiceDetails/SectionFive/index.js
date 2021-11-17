@@ -34,6 +34,7 @@ const ServiceDetailsSectionFive = ({ services }) => {
                         <img
                           src={API_URL + item.serviceIcon.url}
                           alt={item.serviceIcon.filename}
+                          loading="lazy"
                         />
                       </a>
                     </Link>
