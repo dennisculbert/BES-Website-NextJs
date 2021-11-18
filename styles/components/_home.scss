@@ -274,6 +274,27 @@
 }
 // CASE STUDY END
 
+// Modal BackGround Color
+.modal-backdrop {
+  background-color: #80808028 !important;
+  background-clip: unset;
+}
+.modal-content {
+  border: 1px solid #dadce0;
+  // border: none !important;
+  .client-slide {
+    background-color: white !important;
+    padding: 20px 0px !important;
+    .modal-header {
+      border-bottom: none;
+      padding: 0 1rem;
+    }
+    .modal-body {
+      padding: 0 1rem;
+    }
+  }
+}
+
 // OUR HAPPY CLIENTS START
 .our_happy_clients {
   width: 100%;

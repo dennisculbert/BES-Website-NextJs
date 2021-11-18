@@ -1,8 +1,10 @@
+import { useState } from "react";
 import PropTypes from "prop-types";
 import Slider from "react-slick";
 import { Row, Col } from "react-bootstrap";
 import StarRatings from "react-star-ratings";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import HappyClientModal from "./HappyClientsModal";
 
 const settings = {
   dots: false,
@@ -49,6 +51,9 @@ const settings = {
 };
 
 function OurHappyClients({ happyClients }) {
+  const [modalShow, setModalShow] = useState(false);
+  const [clientData, setClientData] = useState({});
+
   return (
     <Row style={{ backgroundColor: "#FBFBFB" }}>
       <Col>
@@ -62,9 +67,20 @@ function OurHappyClients({ happyClients }) {
               {happyClients.map((client) => (
                 <div key={client.profile_photo_url}>
                   <div className="slider-div">
-                    <div className="client-slide container">
+                    <div
+                      role="button"
+                      tabIndex={0}
+                      onClick={() => {
+                        setClientData(client);
+                        setModalShow(true);
+                      }}
+                      className="client-slide container"
+                    >
                       <Row
-                        style={{ padding: "5px 0px", boxSizing: "border-box" }}
+                        style={{
+                          padding: "5px 0px",
+                          boxSizing: "border-box",
+                        }}
                       >
                         <Col
                           sm={3}
@@ -76,11 +92,7 @@ function OurHappyClients({ happyClients }) {
                           }}
                         >
                           <div className="client-img">
-                            <img
-                              src={client.profile_photo_url}
-                              alt={client.author_name}
-                              loading="lazy"
-                            />
+                            <img src={client.profile_photo_url} alt="" />
                           </div>
                         </Col>
                         <Col
@@ -111,6 +123,12 @@ function OurHappyClients({ happyClients }) {
                         </Col>
                       </Row>
                     </div>
+                    {/* Component here */}
+                    <HappyClientModal
+                      clientData={clientData}
+                      show={modalShow}
+                      onHide={() => setModalShow(false)}
+                    />
                   </div>
                 </div>
               ))}
