@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Container, Row, Col, CardColumns } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const TermsAndConditions = () => (
   <>
