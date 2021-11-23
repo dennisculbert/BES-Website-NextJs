@@ -1,11 +1,15 @@
 import Head from "next/head";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 const TermsAndConditions = () => (
   <>
     <Head>
-      <title>Terms & Conditions | Beyond Eris Solutions</title>
+      <title>
+        Terms & Conditions | Beyond Eris Solutions | Software Development
+        Company
+      </title>
     </Head>
+
     <div>
       <Container className="main-space">
         <Row>

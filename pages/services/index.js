@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import Link from "next/link";
-import Head from "next/head";
 import parse from "html-react-parser";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import Header from "../../components/Header";
@@ -13,11 +12,15 @@ import {
   getHeaderData,
   getServices,
 } from "../../apiServices";
+import PageHead from "../../components/PageHead";
 
 const PAGE_TITLE =
   "Services | Beyond Eris Solutions | Software Development Company";
 const PAGE_DESCRIPTION =
   "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+const PAGE_URL = "https://beyonderissolutions.com/services";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 const renderService = (item) => (
   <section className="overview-block-pb-services" key={item._id}>
@@ -68,10 +71,12 @@ const renderService = (item) => (
 function Services({ servicesData, header, footer, contact }) {
   return (
     <>
-      <Head>
-        <title>{PAGE_TITLE}</title>
-        <meta name="description" content={PAGE_DESCRIPTION} />
-      </Head>
+      <PageHead
+        pageTitle={PAGE_TITLE}
+        pageDescription={PAGE_DESCRIPTION}
+        pageURL={PAGE_URL}
+        pageImageURL={PAGE_IMAGE_URL}
+      />
 
       {/* Header */}
       <Header data={header} />

@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import Head from "next/head";
 import { Container, Row, Col } from "react-bootstrap";
 import parse from "html-react-parser";
 import Header from "../../components/Header";
@@ -16,11 +15,15 @@ import {
   getServices,
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
+import PageHead from "../../components/PageHead";
 
 const PAGE_TITLE =
   "Case Study Details | Beyond Eris Solutions | Software Development Company";
 const PAGE_DESCRIPTION =
   "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+const PAGE_URL = "https://beyonderissolutions.com/case-study";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 function CaseStudyDetail({ data, header, footer, contact, services }) {
   /* ============== CASE-STUDY WIRE-FRAME METHOD START ==================================== */
@@ -51,10 +54,13 @@ function CaseStudyDetail({ data, header, footer, contact, services }) {
   /* ============== CASE-STUDY WIREFRAME METHOD END ==================================== */
   return (
     <>
-      <Head>
-        <title>{PAGE_TITLE}</title>
-        <meta name="description" content={PAGE_DESCRIPTION} />
-      </Head>
+      <PageHead
+        pageTitle={PAGE_TITLE}
+        pageDescription={PAGE_DESCRIPTION}
+        pageURL={PAGE_URL}
+        pageImageURL={PAGE_IMAGE_URL}
+      />
+
       {/* Header */}
       <Header data={header} />
       {/* ============== CASE-STUDY1 HEADER START ==================================== */}

@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
-
-import Head from "next/head";
+import PropTypes from "prop-types";
 import { Container } from "react-bootstrap";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -18,22 +16,27 @@ import {
   getHomePageData,
   getServices,
 } from "../apiServices";
+import PageHead from "../components/PageHead";
 
 const PAGE_TITLE =
   "Home | Beyond Eris Solutions | Software Development Company";
 const PAGE_DESCRIPTION =
   "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+const PAGE_URL = "https://beyonderissolutions.com";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
-export default function Home(props) {
+function Home(props) {
   const { header, footer, home, services, contact, caseStudy } = props;
 
   return (
     <div>
-      <Head>
-        <title>{PAGE_TITLE}</title>
-        <meta name="description" content={PAGE_DESCRIPTION} />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        pageTitle={PAGE_TITLE}
+        pageDescription={PAGE_DESCRIPTION}
+        pageURL={PAGE_URL}
+        pageImageURL={PAGE_IMAGE_URL}
+      />
 
       {/* <main> */}
       <Header data={header} />
@@ -66,6 +69,17 @@ export default function Home(props) {
     </div>
   );
 }
+
+Home.propTypes = {
+  home: PropTypes.object.isRequired,
+  caseStudy: PropTypes.object.isRequired,
+  header: PropTypes.object.isRequired,
+  footer: PropTypes.object.isRequired,
+  contact: PropTypes.object.isRequired,
+  services: PropTypes.object.isRequired,
+};
+
+export default Home;
 
 export async function getStaticProps() {
   const home = await getHomePageData();

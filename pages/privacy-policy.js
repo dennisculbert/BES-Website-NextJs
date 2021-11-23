@@ -4,7 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 const PrivacyPolicy = () => (
   <>
     <Head>
-      <title>Privacy Policy | Beyond Eris Solutions</title>
+      <title>
+        Privacy Policy | Beyond Eris Solutions | Software Development Company
+      </title>
     </Head>
     <div>
       <Container className="main-space">

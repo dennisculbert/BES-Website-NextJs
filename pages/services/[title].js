@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import Head from "next/head";
 import Link from "next/link";
 import { Container, Row } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa";
@@ -19,11 +18,15 @@ import {
   getServices,
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
+import PageHead from "../../components/PageHead";
 
 const PAGE_TITLE =
   "Service Details | Beyond Eris Solutions | Software Development Company";
 const PAGE_DESCRIPTION =
   "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+const PAGE_URL = "https://beyonderissolutions.com/services";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 const ServiceDetails = (props) => {
   const { data, header, footer, contact, servicesData, caseStudy, home } =
@@ -31,10 +34,12 @@ const ServiceDetails = (props) => {
 
   return (
     <>
-      <Head>
-        <title>{PAGE_TITLE}</title>
-        <meta name="description" content={PAGE_DESCRIPTION} />
-      </Head>
+      <PageHead
+        pageTitle={PAGE_TITLE}
+        pageDescription={PAGE_DESCRIPTION}
+        pageURL={PAGE_URL}
+        pageImageURL={PAGE_IMAGE_URL}
+      />
 
       {/* Header */}
       <Header data={header} />

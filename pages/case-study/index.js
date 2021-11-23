@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import Head from "next/head";
 import Link from "next/link";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import CaseStudyHeader from "../../components/CaseStudy/CaseStudyHeader";
@@ -15,11 +14,15 @@ import {
   getHeaderData,
   getServices,
 } from "../../apiServices";
+import PageHead from "../../components/PageHead";
 
 const PAGE_TITLE =
   "Case Study | Beyond Eris Solutions | Software Development Company";
 const PAGE_DESCRIPTION =
   "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+const PAGE_URL = "https://beyonderissolutions.com/case-study";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 const renderStudyCard = (item) => (
   <div key={item._id} className="col-md-6 my-md-4 my-3 caseStudy_products">
@@ -74,11 +77,12 @@ function CaseStudy({ data, header, footer, services, contact }) {
 
   return (
     <>
-      <Head>
-        <title>{PAGE_TITLE}</title>
-        <meta name="description" content={PAGE_DESCRIPTION} />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        pageTitle={PAGE_TITLE}
+        pageDescription={PAGE_DESCRIPTION}
+        pageURL={PAGE_URL}
+        pageImageURL={PAGE_IMAGE_URL}
+      />
 
       {/* Header */}
       <Header data={header} />
