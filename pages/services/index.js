@@ -13,11 +13,11 @@ import {
   getServices,
 } from "../../apiServices";
 import PageHead from "../../components/PageHead";
+import { encodeURL } from "../../utils/urlManager";
 
-const PAGE_TITLE =
-  "Services | Beyond Eris Solutions | Software Development Company";
+const PAGE_TITLE = "Services | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+  "Taking a step towards digital development and progress of businesses, our service portfolio covers an entire software development life cycle and meets varied business needs including Website Development, App Development, CRM /ERP Development, Graphic Design, Digital Marketing and Ecommerce Development.";
 const PAGE_URL = "https://beyonderissolutions.com/services";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -28,7 +28,7 @@ const renderService = (item) => (
       <div className="row ">
         <div className="services-row">
           <div className={`col-md-6 `}>
-            <Link href={`/services/${encodeURIComponent(item.heading)}`}>
+            <Link href={`/services/${encodeURL(item.heading)}`}>
               <a className="service_btn">
                 <img
                   src={API_URL + item.serviceImage.url}
@@ -39,7 +39,7 @@ const renderService = (item) => (
             </Link>
           </div>
           <div className="col-md-6 my-auto about_mission_div1 pr-lg-5">
-            <Link href={`/services/${encodeURIComponent(item.heading)}`}>
+            <Link href={`/services/${encodeURL(item.heading)}`}>
               <a className="service_btn">
                 <h3
                   className="font-weight-bold mb-lg-2 mt-5 mt-md-0 heading"
@@ -54,7 +54,7 @@ const renderService = (item) => (
                 ? parse(`${item.description.substring(0, 300)}...`)
                 : parse(item.description)}
             </p>
-            <Link href={`/services/${encodeURIComponent(item.heading)}`}>
+            <Link href={`/services/${encodeURL(item.heading)}`}>
               <a className="service_btn">
                 <p style={{ color: "#337eb0" }}>
                   Learn More <FaRegArrowAltCircleRight className="ml-2" />

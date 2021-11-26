@@ -3,6 +3,7 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 import { API_URL } from "../../apiServices";
+import { encodeURL } from "../../utils/urlManager";
 
 function CaseStudy({ homeCaseStudy, caseStudyData }) {
   return (
@@ -31,11 +32,7 @@ function CaseStudy({ homeCaseStudy, caseStudyData }) {
                         ? `${item.company.description.substring(0, 100)}...`
                         : item.company.description}
                     </Card.Text>
-                    <Link
-                      href={`/case-study/${encodeURIComponent(
-                        item.company.name
-                      )}`}
-                    >
+                    <Link href={`/case-study/${encodeURL(item.company.name)}`}>
                       <a>
                         <FaArrowRight className="case_study_card_btn" />
                       </a>

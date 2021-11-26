@@ -18,10 +18,9 @@ import {
 } from "../apiServices";
 import PageHead from "../components/PageHead";
 
-const PAGE_TITLE =
-  "Home | Beyond Eris Solutions | Software Development Company";
+const PAGE_TITLE = "Beyond Eris Solutions | Software Development Company";
 const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+  "Beyond Eris Solutions (Dubai) is a team of tech specialists who are engaged to help you employ top-notch digital products and solutions that are tailor-made to your business requirements and are based on innovative next-generation sоftwаrе sоlutіоns.";
 const PAGE_URL = "https://beyonderissolutions.com";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";

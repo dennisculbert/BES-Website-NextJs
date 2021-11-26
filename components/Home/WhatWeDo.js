@@ -3,6 +3,7 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import parse from "html-react-parser";
 import Link from "next/link";
 import { API_URL } from "../../apiServices";
+import { encodeURL } from "../../utils/urlManager";
 
 function WhatWeDo({ whatWeDoData, services }) {
   return (
@@ -24,9 +25,7 @@ function WhatWeDo({ whatWeDoData, services }) {
             <Row>
               {services.slice(0, 6).map((service) => (
                 <Col md={4} lg={4} xs={6} className="mb-4" key={service._id}>
-                  <Link
-                    href={`/services/${encodeURIComponent(service.heading)}`}
-                  >
+                  <Link href={`/services/${encodeURL(service.heading)}`}>
                     <a>
                       <Card className="home_card">
                         <Card.Body>

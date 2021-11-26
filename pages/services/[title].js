@@ -19,11 +19,11 @@ import {
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
 import PageHead from "../../components/PageHead";
+import { encodeURL, decodeURL } from "../../utils/urlManager";
 
-const PAGE_TITLE =
-  "Service Details | Beyond Eris Solutions | Software Development Company";
+const PAGE_TITLE = "Service Details | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+  "Taking a step towards digital development and progress of businesses, our service portfolio covers an entire software development life cycle and meets varied business needs including Website Development, App Development, CRM /ERP Development, Graphic Design, Digital Marketing and Ecommerce Development.";
 const PAGE_URL = "https://beyonderissolutions.com/services";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -99,7 +99,7 @@ export async function getStaticPaths() {
 
   // Get the paths we want to pre-render based on posts
   const paths = services.map((service) => ({
-    params: { title: service.heading },
+    params: { title: encodeURL(service.heading) },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -111,7 +111,9 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   // params contains the post `title`.
   // If the route is like /posts/ABC, then params.title is ABC
-  const data = await getServiceDetails(encodeURIComponent(params.title));
+  const data = await getServiceDetails(
+    encodeURIComponent(decodeURL(params.title))
+  );
   const header = await getHeaderData();
   const footer = await getFooterData();
   const servicesData = await getServices();
