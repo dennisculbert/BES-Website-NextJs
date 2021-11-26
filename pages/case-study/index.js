@@ -15,11 +15,11 @@ import {
   getServices,
 } from "../../apiServices";
 import PageHead from "../../components/PageHead";
+import { encodeURL } from "../../utils/urlManager";
 
-const PAGE_TITLE =
-  "Case Study | Beyond Eris Solutions | Software Development Company";
+const PAGE_TITLE = "Case Study | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+  "At Beyond Eris Solutions we aim to transform businesses with extended and powerful digital solutions that satisfy the needs of your business in upcoming days. Here are case studies to prove our reliability, sincerity and success stories.";
 const PAGE_URL = "https://beyonderissolutions.com/case-study";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -27,7 +27,7 @@ const PAGE_IMAGE_URL =
 const renderStudyCard = (item) => (
   <div key={item._id} className="col-md-6 my-md-4 my-3 caseStudy_products">
     <Link
-      href={`/case-study/${encodeURIComponent(item.company.name)}`}
+      href={`/case-study/${encodeURL(item.company.name)}`}
       style={{ color: "#000" }}
     >
       <a>

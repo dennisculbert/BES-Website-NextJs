@@ -15,10 +15,9 @@ import {
 } from "../../apiServices";
 import PageHead from "../../components/PageHead";
 
-const PAGE_TITLE =
-  "Blogs | Beyond Eris Solutions | Software Development Company";
+const PAGE_TITLE = "Blogs | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+  "Learn about the digital transformation of your company and business through our well demonstrated blogs. We not only highlight the importance of having a digital footprint but at Beyond Eris solutions we also provide solutions and services to aid the process of achieving one.";
 const PAGE_URL = "https://beyonderissolutions.com/blogs";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -26,7 +25,7 @@ const PAGE_IMAGE_URL =
 const blogsPerPage = 9;
 
 function BlogsPage({ blogsData, header, footer, contact, services }) {
-  const [blogs, setBlogs] = useState([]);
+  const [blogs, setBlogs] = useState(blogsData.blogs);
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
@@ -43,7 +42,7 @@ function BlogsPage({ blogsData, header, footer, contact, services }) {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   const getLatestBlog = () => {
-    const tempBlogs = [...blogs].sort(
+    const tempBlogs = blogs.sort(
       (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
     );
     if (tempBlogs.length > 0) return tempBlogs[0];

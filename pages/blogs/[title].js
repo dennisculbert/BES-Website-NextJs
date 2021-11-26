@@ -16,11 +16,11 @@ import {
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
 import PageHead from "../../components/PageHead";
+import { encodeURL, decodeURL } from "../../utils/urlManager";
 
-const PAGE_TITLE =
-  "Blog Details | Beyond Eris Solutions | Software Development Company";
+const PAGE_TITLE = "Blog Details | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+  "Learn about the digital transformation of your company and business through our well demonstrated blogs. We not only highlight the importance of having a digital footprint but at Beyond Eris solutions we also provide solutions and services to aid the process of achieving one.";
 const PAGE_URL = "https://beyonderissolutions.com/blogs";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -83,7 +83,7 @@ export async function getStaticPaths() {
 
   // Get the paths we want to pre-render based on posts
   const paths = blogs.map((blog) => ({
-    params: { title: blog.title },
+    params: { title: encodeURL(blog.title) },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -96,7 +96,9 @@ export async function getStaticProps({ params }) {
   // params contains the post `title`.
   // If the route is like /blogs/ABC, then params.title is ABC
 
-  const blogPostData = await getBlogDetails(encodeURIComponent(params.title));
+  const blogPostData = await getBlogDetails(
+    encodeURIComponent(decodeURL(params.title))
+  );
   const blogData = await getBlogsData();
   const header = await getHeaderData();
   const footer = await getFooterData();

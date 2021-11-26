@@ -8,6 +8,15 @@ function PageHead({ pageTitle, pageDescription, pageURL, pageImageURL }) {
       <title>{pageTitle}</title>
       <meta name="title" content={pageTitle} />
       <meta name="description" content={pageDescription} />
+      <meta
+        name="keywords"
+        content="it company Dubai, software development company Dubai, website development Dubai, website development company Dubai, web development company in UAE"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta name="author" content="Muhammad Usman" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="language" content="English" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />

@@ -14,11 +14,14 @@ import {
   RedditIcon,
 } from "react-share";
 import { API_URL } from "../../apiServices";
+import { encodeURL, decodeURL } from "../../utils/urlManager";
 
 const BlogIcon = ({ blogTitle, blogImage }) => {
-  const blogURL = `https://beyonderissolutions.com/blogs/${blogTitle}`;
+  const blogURL = `https://beyonderissolutions.com/blogs/${encodeURL(
+    blogTitle
+  )}`;
   const blogImageURL = API_URL + blogImage.url;
-  const decodedBlogTitle = decodeURIComponent(blogTitle);
+  const decodedBlogTitle = decodeURL(blogTitle);
 
   return (
     <>

@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import Spacer from "./spacer";
 import ContactBox from "./contactBox";
 import { API_URL } from "../../apiServices";
+import { encodeURL } from "../../utils/urlManager";
 
 const facebook = "/img/facebook.png";
 const twitter = "/img/twitter.png";
@@ -69,11 +70,7 @@ function Footer({ footerData, contactData, serviceData }) {
                     <ul>
                       {serviceData.services.map((item) => (
                         <li key={item._id}>
-                          <Link
-                            href={`/services/${encodeURIComponent(
-                              item.heading
-                            )}`}
-                          >
+                          <Link href={`/services/${encodeURL(item.heading)}`}>
                             {item.heading}
                           </Link>
                         </li>

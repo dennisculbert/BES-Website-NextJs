@@ -16,11 +16,11 @@ import {
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
 import PageHead from "../../components/PageHead";
+import { encodeURL, decodeURL } from "../../utils/urlManager";
 
-const PAGE_TITLE =
-  "Case Study Details | Beyond Eris Solutions | Software Development Company";
+const PAGE_TITLE = "Case Study Details | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions is a Dubai Based Software Development Agency with an extensive experience and track record that ensures your brand connects meaningfully with your customers";
+  "At Beyond Eris Solutions we aim to transform businesses with extended and powerful digital solutions that satisfy the needs of your business in upcoming days. Here are case studies to prove our reliability, sincerity and success stories.";
 const PAGE_URL = "https://beyonderissolutions.com/case-study";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -126,7 +126,7 @@ export async function getStaticPaths() {
 
   // Get the paths we want to pre-render based on posts
   const paths = casestudies.map((caseStudy) => ({
-    params: { name: caseStudy.company.name },
+    params: { name: encodeURL(caseStudy.company.name) },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -139,7 +139,7 @@ export async function getStaticProps({ params }) {
   // params contains the post `name`.
   // If the route is like /posts/ABC, then params.name is ABC
   const caseStudyDetail = await getCaseStudyDetail(
-    encodeURIComponent(params.name)
+    encodeURIComponent(decodeURL(params.name))
   );
   const { banner } = await getCaseStudyData();
   const data = { ...caseStudyDetail, banner };
