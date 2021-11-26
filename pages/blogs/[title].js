@@ -92,7 +92,7 @@ export async function getStaticPaths() {
 }
 
 // This also gets called at build time
-export async function getStaticProps({ params, ...rest }) {
+export async function getStaticProps({ params }) {
   // params contains the post `title`.
   // If the route is like /blogs/ABC, then params.title is ABC
 
