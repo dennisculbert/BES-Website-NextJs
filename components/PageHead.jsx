@@ -17,6 +17,7 @@ function PageHead({ pageTitle, pageDescription, pageURL, pageImageURL }) {
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="canonical" href={pageURL} />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
