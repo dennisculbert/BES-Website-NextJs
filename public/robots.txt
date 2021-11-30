@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Disallow: /.well-known/
+Disallow: /assets/
+Disallow: /cgi-bin/
+Sitemap: https://beyonderissolutions.com/sitemap.xml
