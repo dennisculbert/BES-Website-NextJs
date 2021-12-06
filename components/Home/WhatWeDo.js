@@ -4,6 +4,7 @@ import parse from "html-react-parser";
 import Link from "next/link";
 import { API_URL } from "../../apiServices";
 import { encodeURL } from "../../utils/urlManager";
+import getSorting from "../../utils/getSorting";
 
 function WhatWeDo({ whatWeDoData, services }) {
   return (
@@ -23,35 +24,38 @@ function WhatWeDo({ whatWeDoData, services }) {
           </Col>
           <Col lg={8} className="pt-md-0 pt-5">
             <Row>
-              {services.slice(0, 6).map((service) => (
-                <Col md={4} lg={4} xs={6} className="mb-4" key={service._id}>
-                  <Link href={`/services/${encodeURL(service.heading)}`}>
-                    <a>
-                      <Card className="home_card">
-                        <Card.Body>
-                          <div className="home_card-div">
-                            <img
-                              src={API_URL + service.serviceIcon.url}
-                              alt={service.serviceIcon.filename}
-                              loading="lazy"
-                            />
-                          </div>
-                          <Card.Title className="py-2 card_title">
-                            {service.heading}
-                          </Card.Title>
-                          <Card.Text style={{ fontSize: "12px" }}>
-                            {service.description.length > 80
-                              ? parse(
-                                  `${service.description.substring(0, 80)}...`
-                                )
-                              : parse(`${service.description}`)}
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </a>
-                  </Link>
-                </Col>
-              ))}
+              {services
+                .slice(0, 6)
+                .sort(getSorting("desc", "heading"))
+                .map((service) => (
+                  <Col md={4} lg={4} xs={6} className="mb-4" key={service._id}>
+                    <Link href={`/services/${encodeURL(service.heading)}`}>
+                      <a>
+                        <Card className="home_card">
+                          <Card.Body>
+                            <div className="home_card-div">
+                              <img
+                                src={API_URL + service.serviceIcon.url}
+                                alt={service.serviceIcon.filename}
+                                loading="lazy"
+                              />
+                            </div>
+                            <Card.Title className="py-2 card_title">
+                              {service.heading}
+                            </Card.Title>
+                            <Card.Text style={{ fontSize: "12px" }}>
+                              {service.description.length > 80
+                                ? parse(
+                                    `${service.description.substring(0, 80)}...`
+                                  )
+                                : parse(`${service.description}`)}
+                            </Card.Text>
+                          </Card.Body>
+                        </Card>
+                      </a>
+                    </Link>
+                  </Col>
+                ))}
             </Row>
           </Col>
         </Row>

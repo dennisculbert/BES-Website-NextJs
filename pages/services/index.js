@@ -14,6 +14,7 @@ import {
 } from "../../apiServices";
 import PageHead from "../../components/PageHead";
 import { encodeURL } from "../../utils/urlManager";
+import getSorting from "../../utils/getSorting";
 
 const PAGE_TITLE = "Services | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
@@ -87,7 +88,9 @@ function Services({ servicesData, header, footer, contact }) {
 
       {/* =========== SERVICES-PAGE SECTIONS START ================ */}
       <div className="service-page-product-section">
-        {servicesData.services.map((item) => renderService(item))}
+        {servicesData.services
+          .sort(getSorting("desc", "heading"))
+          .map((item) => renderService(item))}
       </div>
       {/* =========== SERVICES-PAGE SECTIONS END ================ */}
 

@@ -7,6 +7,7 @@ import Spacer from "./spacer";
 import ContactBox from "./contactBox";
 import { API_URL } from "../../apiServices";
 import { encodeURL } from "../../utils/urlManager";
+import getSorting from "../../utils/getSorting";
 
 const facebook = "/img/facebook.png";
 const twitter = "/img/twitter.png";
@@ -68,13 +69,15 @@ function Footer({ footerData, contactData, serviceData }) {
                   <div className="support pt-md-0 pt-5">
                     <strong>Services</strong>
                     <ul>
-                      {serviceData.services.map((item) => (
-                        <li key={item._id}>
-                          <Link href={`/services/${encodeURL(item.heading)}`}>
-                            {item.heading}
-                          </Link>
-                        </li>
-                      ))}
+                      {serviceData.services
+                        .sort(getSorting("desc", "heading"))
+                        .map((item) => (
+                          <li key={item._id}>
+                            <Link href={`/services/${encodeURL(item.heading)}`}>
+                              {item.heading}
+                            </Link>
+                          </li>
+                        ))}
                     </ul>
                   </div>
                 </Col>
