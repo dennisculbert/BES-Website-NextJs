@@ -20,7 +20,7 @@ const BlogHeader = ({ data }) => {
   // Submit the request
   const handleOnSelect = (item) => {
     if (item && item.length !== 0 && item[0].value)
-      router.push("/blogs/" + encodeURL(item[0].value));
+      router.push("/blog/" + encodeURL(item[0].value));
   };
 
   return (

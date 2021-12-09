@@ -16,17 +16,12 @@ import {
   getHomePageData,
   getServiceDetails,
   getServices,
+  API_URL,
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
 import PageHead from "../../components/PageHead";
 import { encodeURL, decodeURL } from "../../utils/urlManager";
-
-const PAGE_TITLE = "Service Details | Beyond Eris Solutions";
-const PAGE_DESCRIPTION =
-  "Taking a step towards digital development and progress of businesses, our service portfolio covers an entire software development life cycle and meets varied business needs including Website Development, App Development, CRM /ERP Development, Graphic Design, Digital Marketing and Ecommerce Development.";
-const PAGE_URL = "https://beyonderissolutions.com/services";
-const PAGE_IMAGE_URL =
-  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
+import extractContent from "../../utils/contentExtractor";
 
 const ServiceDetails = (props) => {
   const { data, header, footer, contact, servicesData, caseStudy, home } =
@@ -35,10 +30,21 @@ const ServiceDetails = (props) => {
   return (
     <>
       <PageHead
-        pageTitle={PAGE_TITLE}
-        pageDescription={PAGE_DESCRIPTION}
-        pageURL={PAGE_URL}
-        pageImageURL={PAGE_IMAGE_URL}
+        pageTitle={data?.serviceDetails?.heading}
+        pageDescription={
+          data?.serviceDetailSections[0]?.description.length > 250
+            ? extractContent(
+                `${data?.serviceDetailSections[0]?.description.substring(
+                  0,
+                  250
+                )}...`
+              )
+            : extractContent(`${data?.serviceDetailSections[0]?.description}`)
+        }
+        pageURL={`${API_URL}/services/${encodeURL(
+          data?.serviceDetails?.heading
+        )}`}
+        pageImageURL={`${API_URL}${data?.serviceDetails.serviceImage?.url}`}
       />
 
       {/* Header */}
@@ -47,7 +53,7 @@ const ServiceDetails = (props) => {
 
       <Container fluid>
         {data.serviceDetailSections.map((section) => (
-          <SectionTwo data={section} />
+          <SectionTwo data={section} key={section.heading} />
         ))}
 
         <Row className="service-details-inner">

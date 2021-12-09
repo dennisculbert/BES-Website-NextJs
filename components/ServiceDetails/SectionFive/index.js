@@ -24,6 +24,7 @@ const ServiceDetailsSectionFive = ({ services }) => {
                   sm={3}
                   xs={3}
                   className="service-details-section-five-inner-column"
+                  key={item._id}
                 >
                   <div className="service-details-section-five-icon-wrapper">
                     <Link href={`/services/${encodeURL(item.heading)}`}>

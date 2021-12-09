@@ -18,7 +18,7 @@ import PageHead from "../../components/PageHead";
 const PAGE_TITLE = "Blogs | Beyond Eris Solutions";
 const PAGE_DESCRIPTION =
   "Learn about the digital transformation of your company and business through our well demonstrated blogs. We not only highlight the importance of having a digital footprint but at Beyond Eris solutions we also provide solutions and services to aid the process of achieving one.";
-const PAGE_URL = "https://beyonderissolutions.com/blogs";
+const PAGE_URL = "https://beyonderissolutions.com/blog";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 

@@ -21,7 +21,7 @@ const ServiceDetailsSectionFour = ({ caseStudiesList, homeCaseStudy }) => (
       </Row>
       <Row>
         {caseStudiesList.slice(0, 3).map((item) => (
-          <Col md={4} className="mb-4">
+          <Col md={4} className="mb-4" key={item._id}>
             <Card className={`case_study_card ${item.class}`}>
               <Card.Body>
                 <div className="case_study">
@@ -55,7 +55,7 @@ const ServiceDetailsSectionFour = ({ caseStudiesList, homeCaseStudy }) => (
 
 ServiceDetailsSectionFour.propTypes = {
   homeCaseStudy: PropTypes.object.isRequired,
-  caseStudiesList: PropTypes.object.isRequired,
+  caseStudiesList: PropTypes.array.isRequired,
 };
 
 export default ServiceDetailsSectionFour;

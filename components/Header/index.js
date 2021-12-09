@@ -99,7 +99,7 @@ function Header({ data }) {
                 Services
               </a>
             </Link>
-            <Link href="/blogs">
+            <Link href="/blog">
               <a
                 className={
                   location[1] === "blogs" || location[1] === "blog-details"

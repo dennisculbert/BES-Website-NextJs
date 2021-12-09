@@ -55,7 +55,7 @@ function Footer({ footerData, contactData, serviceData }) {
                         <Link href="/case-study">Case Study</Link>
                       </li>
                       <li>
-                        <Link href="/blogs">Blog</Link>
+                        <Link href="/blog">Blog</Link>
                       </li>
                       <li>
                         <Link href="/about-us">About</Link>

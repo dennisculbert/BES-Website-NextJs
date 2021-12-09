@@ -13,7 +13,7 @@ const SubscriptionSection = ({ data }) => (
     <Row className="trend_div">
       <Col md={8}>
         {data && (
-          <Link href={`/blogs/${encodeURL(data.title)}`}>
+          <Link href={`/blog/${encodeURL(data.title)}`}>
             <a>
               <div style={{ position: "relative" }}>
                 <img

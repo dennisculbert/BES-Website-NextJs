@@ -26,7 +26,7 @@ function WhatWeDo({ whatWeDoData, services }) {
             <Row>
               {services
                 .slice(0, 6)
-                .sort(getSorting("desc", "heading"))
+                .sort(getSorting("desc", "createdAt"))
                 .map((service) => (
                   <Col md={4} lg={4} xs={6} className="mb-4" key={service._id}>
                     <Link href={`/services/${encodeURL(service.heading)}`}>

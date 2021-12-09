@@ -13,17 +13,12 @@ import {
   getHeaderData,
   getServices,
   getBlogsData,
+  API_URL,
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
 import PageHead from "../../components/PageHead";
 import { encodeURL, decodeURL } from "../../utils/urlManager";
-
-const PAGE_TITLE = "Blog Details | Beyond Eris Solutions";
-const PAGE_DESCRIPTION =
-  "Learn about the digital transformation of your company and business through our well demonstrated blogs. We not only highlight the importance of having a digital footprint but at Beyond Eris solutions we also provide solutions and services to aid the process of achieving one.";
-const PAGE_URL = "https://beyonderissolutions.com/blogs";
-const PAGE_IMAGE_URL =
-  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
+import extractContent from "../../utils/contentExtractor";
 
 function BlogPost(props) {
   const { blogData, blogPostData, header, footer, services, contact } = props;
@@ -31,10 +26,16 @@ function BlogPost(props) {
   return (
     <>
       <PageHead
-        pageTitle={PAGE_TITLE}
-        pageDescription={PAGE_DESCRIPTION}
-        pageURL={PAGE_URL}
-        pageImageURL={PAGE_IMAGE_URL}
+        pageTitle={blogPostData?.title}
+        pageDescription={
+          blogPostData?.blogDetails.length > 250
+            ? extractContent(
+                `${blogPostData?.blogDetails.substring(0, 250)}...`
+              )
+            : extractContent(`${blogPostData?.blogDetails}`)
+        }
+        pageURL={`${API_URL}/blog/${encodeURL(blogPostData?.title)}`}
+        pageImageURL={`${API_URL}${blogPostData?.blogThumnail?.url}`}
       />
 
       {/* Header */}
@@ -94,7 +95,7 @@ export async function getStaticPaths() {
 // This also gets called at build time
 export async function getStaticProps({ params }) {
   // params contains the post `title`.
-  // If the route is like /blogs/ABC, then params.title is ABC
+  // If the route is like /blog/ABC, then params.title is ABC
 
   const blogPostData = await getBlogDetails(
     encodeURIComponent(decodeURL(params.title))

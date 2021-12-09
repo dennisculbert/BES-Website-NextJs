@@ -7,7 +7,7 @@ import { encodeURL } from "../../utils/urlManager";
 // Render Single Blog
 const renderBlog = (blog) => (
   <div className="col-md-4 col-6 px-2 blogProduct_blogs" key={blog._id}>
-    <Link href={`/blogs/${encodeURL(blog.title)}`}>
+    <Link href={`/blog/${encodeURL(blog.title)}`}>
       <a>
         <div className="blog-img-wrapper">
           <img

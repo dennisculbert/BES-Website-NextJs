@@ -89,7 +89,7 @@ function Services({ servicesData, header, footer, contact }) {
       {/* =========== SERVICES-PAGE SECTIONS START ================ */}
       <div className="service-page-product-section">
         {servicesData.services
-          .sort(getSorting("desc", "heading"))
+          .sort(getSorting("desc", "createdAt"))
           .map((item) => renderService(item))}
       </div>
       {/* =========== SERVICES-PAGE SECTIONS END ================ */}

@@ -6,7 +6,7 @@ import { encodeURL } from "../../utils/urlManager";
 const BlogSidebar = ({ blogs }) => (
   <>
     <Col lg={4} md={5} className="inform_rightSide">
-      <Link href="/blogs">
+      <Link href="/blog">
         <a>
           <button type="button" className="inform_rightHeader">
             View All Blogs
@@ -14,13 +14,13 @@ const BlogSidebar = ({ blogs }) => (
         </a>
       </Link>
       {blogs.slice(0, 8).map((item) => (
-        <Link key={item._id} href={`/blogs/${encodeURL(item.title)}`}>
+        <Link key={item._id} href={`/blog/${encodeURL(item.title)}`}>
           <a>
             <p className="inform_blogs">{item.title}</p>
           </a>
         </Link>
       ))}
-      <Link href="/blogs">
+      <Link href="/blog">
         <a>
           <p className={blogs.length < 8 ? "see-more-none" : "see-more"}>
             See All

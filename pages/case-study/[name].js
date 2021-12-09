@@ -18,13 +18,6 @@ import isEmpty from "../../utils/isEmpty";
 import PageHead from "../../components/PageHead";
 import { encodeURL, decodeURL } from "../../utils/urlManager";
 
-const PAGE_TITLE = "Case Study Details | Beyond Eris Solutions";
-const PAGE_DESCRIPTION =
-  "At Beyond Eris Solutions we aim to transform businesses with extended and powerful digital solutions that satisfy the needs of your business in upcoming days. Here are case studies to prove our reliability, sincerity and success stories.";
-const PAGE_URL = "https://beyonderissolutions.com/case-study";
-const PAGE_IMAGE_URL =
-  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
-
 function CaseStudyDetail({ data, header, footer, contact, services }) {
   /* ============== CASE-STUDY WIRE-FRAME METHOD START ==================================== */
 
@@ -55,10 +48,10 @@ function CaseStudyDetail({ data, header, footer, contact, services }) {
   return (
     <>
       <PageHead
-        pageTitle={PAGE_TITLE}
-        pageDescription={PAGE_DESCRIPTION}
-        pageURL={PAGE_URL}
-        pageImageURL={PAGE_IMAGE_URL}
+        pageTitle={data?.company?.name}
+        pageDescription={data?.company?.description}
+        pageURL={`${API_URL}/case-study/${encodeURL(data?.company?.name)}`}
+        pageImageURL={`${API_URL}${data?.company?.logo?.url}`}
       />
 
       {/* Header */}

@@ -17,7 +17,7 @@ import { API_URL } from "../../apiServices";
 import { encodeURL, decodeURL } from "../../utils/urlManager";
 
 const BlogIcon = ({ blogTitle, blogImage }) => {
-  const blogURL = `https://beyonderissolutions.com/blogs/${encodeURL(
+  const blogURL = `https://beyonderissolutions.com/blog/${encodeURL(
     blogTitle
   )}`;
   const blogImageURL = API_URL + blogImage.url;
