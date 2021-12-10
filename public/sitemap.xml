@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://beyonderissolutions.com/</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
@@ -9,63 +10,75 @@
         <image:title>beyond eris solutions logo</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/home/banner/Untitled-1%20(4).png</image:loc>
         <image:title>Untitled-1 (4).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-png.png</image:loc>
-        <image:title>web-development-png.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-Service.png</image:loc>
+        <image:title>web-development-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce.png</image:loc>
-        <image:title>E-commerce.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/digital-marketing-Service.png</image:loc>
+        <image:title>digital-marketing-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Digital%20Marketing%20Service%20(3).png</image:loc>
-        <image:title>Digital Marketing Service (3).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/graphics-design-Service.png</image:loc>
+        <image:title>graphics-design-Service.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/home/who-we-are/home%20who%20we%20are.png</image:loc>
         <image:title>home who we are.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/agrocares-small.jpg</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/cosmos.jpg</image:loc>
         <image:title>portfolio</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/ROUND-2.png</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/Client%20Management%20System.png</image:loc>
         <image:title>portfolio</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/banyadental-small.jpg</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/CRM%20Software's.png</image:loc>
         <image:title>portfolio</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/elevate-homes-fitout-small.jpg</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/HR%20management%20System.png</image:loc>
         <image:title>portfolio</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/cosmos-small.jpg</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/pay-roll.png</image:loc>
         <image:title>portfolio</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/luxury-explorers-collection-small.jpg</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/project%20management%20system.png</image:loc>
+        <image:title>portfolio</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/Client%20Management%20System-copy-0835.png</image:loc>
+        <image:title>portfolio</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/luxury.jpg</image:loc>
+        <image:title>portfolio</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/event-wxplorers.jpg</image:loc>
+        <image:title>portfolio</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/home/portfolio/elevate-home.jpg</image:loc>
         <image:title>portfolio</image:title>
       </image:image>
       <image:image>
@@ -77,88 +90,38 @@
         <image:title></image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
         <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://beyonderissolutions.com/case-study/Events-Explorers</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/EVENTSEXPLORER-WIREFRAME.png</image:loc>
-        <image:title>EVENTSEXPLORER-WIREFRAME.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Events-UT.png</image:loc>
-        <image:title>Events-UT.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Events.png</image:loc>
-        <image:title>Events.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/case-study</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/terms-and-conditions</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/services/Graphic-Design</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/GD.png</image:loc>
-        <image:title>GD.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/graphics-2.png</image:loc>
+        <image:title>graphics-2.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/languages(cleaned)%20(1).png</image:loc>
-        <image:title>languages(cleaned) (1).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/graphics-3.png</image:loc>
+        <image:title>graphics-3.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
@@ -169,42 +132,31 @@
         <image:title>case-study-elevate-homes.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-png.png</image:loc>
-        <image:title>web-development-png.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-Service.png</image:loc>
+        <image:title>web-development-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce.png</image:loc>
-        <image:title>E-commerce.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/case-study/ELEVATE-HOMES-FITOUT</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/ELEVATEHOMES-WIREFRAME_2.png</image:loc>
         <image:title>ELEVATEHOMES-WIREFRAME_2.png</image:title>
@@ -217,34 +169,23 @@
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/elevate-homes-CS.png</image:loc>
         <image:title>elevate-homes-CS.png</image:title>
       </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/services/CRM-&amp;-ERP-Development</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/CRM-and-ERP.png</image:loc>
-        <image:title>CRM-and-ERP.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/CRM-and-ERP2.png</image:loc>
+        <image:title>CRM-and-ERP2.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/languages(cleaned)-copy-2941.png</image:loc>
-        <image:title>languages(cleaned).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/web-developement-2-copy-6032.png</image:loc>
+        <image:title>web-developement-2.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
@@ -255,42 +196,31 @@
         <image:title>case-study-elevate-homes.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-png.png</image:loc>
-        <image:title>web-development-png.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-Service.png</image:loc>
+        <image:title>web-development-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce.png</image:loc>
-        <image:title>E-commerce.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/digital-marketing-Service.png</image:loc>
+        <image:title>digital-marketing-Service.png</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/contact</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://beyonderissolutions.com/img/contact_metro.png</image:loc>
         <image:title>metro</image:title>
@@ -303,80 +233,30 @@
         <image:loc>https://beyonderissolutions.com/img/contact_email.png</image:loc>
         <image:title>mail</image:title>
       </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
   </url>
   <url>
-    <loc>https://beyonderissolutions.com/services/App-Development</loc>
+    <loc>https://beyonderissolutions.com/case-study/Luxury-Explorers-Collection</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/LEC-WIREFRAME_2.png</image:loc>
+        <image:title>LEC-WIREFRAME_2.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/LEC-UT.png</image:loc>
+        <image:title>LEC-UT.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
-        <image:title>web-Design-Development1 (1).png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/mobile.png</image:loc>
-        <image:title>mobile.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/languages(cleaned)%20(2).png</image:loc>
-        <image:title>languages(cleaned) (2).png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
-        <image:title>case-study-Cosmos-architecture.jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-elevate-homes.jpg</image:loc>
-        <image:title>case-study-elevate-homes.jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-png.png</image:loc>
-        <image:title>web-development-png.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce.png</image:loc>
-        <image:title>E-commerce.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/luxury-explorers-collection-CS.png</image:loc>
+        <image:title>luxury-explorers-collection-CS.png</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/about-us</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/about/about-details/sections/qq-copy-3396.jpg</image:loc>
         <image:title>qq.jpg</image:title>
@@ -389,34 +269,69 @@
         <image:loc>https://admin.beyonderissolutions.com/media/images/about/about-performance/expertise.png</image:loc>
         <image:title>expertise.png</image:title>
       </image:image>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/services/App-Development</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
+        <image:title>web-Design-Development1 (1).png</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/app-development-2.png</image:loc>
+        <image:title>app-development-2.png</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/web-developement-2-copy-3705.png</image:loc>
+        <image:title>web-developement-2.png</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
+        <image:title>case-study-Cosmos-architecture.jpg</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-elevate-homes.jpg</image:loc>
+        <image:title>case-study-elevate-homes.jpg</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-Service.png</image:loc>
+        <image:title>web-development-Service.png</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/services/Digital-Marketing</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Digital%20Marketing%20Service%20(2).png</image:loc>
-        <image:title>Digital Marketing Service (2).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Digital%20Marketing-2.png</image:loc>
+        <image:title>Digital Marketing-2.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Digital%20Marketing%20Service%20(4).png</image:loc>
-        <image:title>Digital Marketing Service (4).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Digital%20Marketing-3.png</image:loc>
+        <image:title>Digital Marketing-3.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
@@ -427,53 +342,42 @@
         <image:title>case-study-elevate-homes.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-png.png</image:loc>
-        <image:title>web-development-png.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-Service.png</image:loc>
+        <image:title>web-development-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/services/Accounting-Software%E2%80%99s</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Untitled-1.png</image:loc>
-        <image:title>Untitled-1.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Accounting-1.png</image:loc>
+        <image:title>Accounting-1.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/accounting-language.png</image:loc>
-        <image:title>accounting-language.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Accounting-2.png</image:loc>
+        <image:title>Accounting-2.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
@@ -484,58 +388,42 @@
         <image:title>case-study-elevate-homes.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-png.png</image:loc>
-        <image:title>web-development-png.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-Service.png</image:loc>
+        <image:title>web-development-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/digital-marketing-Service.png</image:loc>
+        <image:title>digital-marketing-Service.png</image:title>
       </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://beyonderissolutions.com/privacy-policy</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/services/Web-Development</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/website-dev.png</image:loc>
-        <image:title>website-dev.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/web-developement-1-copy-7633.png</image:loc>
+        <image:title>web-developement-1.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/languages(cleaned).png</image:loc>
-        <image:title>languages(cleaned).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/web-developement-2.png</image:loc>
+        <image:title>web-developement-2.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
@@ -546,53 +434,38 @@
         <image:title>case-study-elevate-homes.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce.png</image:loc>
-        <image:title>E-commerce.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/digital-marketing-Service.png</image:loc>
+        <image:title>digital-marketing-Service.png</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/blog</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(2).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (2).jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(1)%20(1)-copy-0150.jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (1) (1).jpg</image:title>
       </image:image>
       <image:image>
         <image:loc>https://beyonderissolutions.com/img/blog_right.png</image:loc>
         <image:title>form_img</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
@@ -622,34 +495,29 @@
         <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/BLOG-3.jpg</image:loc>
         <image:title>BLOG-3.jpg</image:title>
       </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/privacy-policy</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/services/Ecommerce-Development</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/Ecommerce.png</image:loc>
-        <image:title>Ecommerce.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/E-commerce-2.png</image:loc>
+        <image:title>E-commerce-2.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/E-commerce%20development%20service.png</image:loc>
-        <image:title>E-commerce development service.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/E-commerce-3.png</image:loc>
+        <image:title>E-commerce-3.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
@@ -660,42 +528,31 @@
         <image:title>case-study-elevate-homes.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-png.png</image:loc>
-        <image:title>web-development-png.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-development-Service.png</image:loc>
+        <image:title>web-development-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/digital-marketing-Service.png</image:loc>
+        <image:title>digital-marketing-Service.png</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/case-study/COSMOS-ARCHITECTURE</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/COSMOS-WIREFRAME_2.png</image:loc>
         <image:title>COSMOS-WIREFRAME_2.png</image:title>
@@ -708,347 +565,321 @@
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/cosmos-CS.png</image:loc>
         <image:title>cosmos-CS.png</image:title>
       </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/services</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/weeb.png</image:loc>
-        <image:title>weeb.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/web-developement-3.png</image:loc>
+        <image:title>web-developement-3.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/check-check.png</image:loc>
-        <image:title>check-check.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/CRM%20design(lightgrey).png</image:loc>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/CRM%20design(lightgrey)-copy-3230.png</image:loc>
         <image:title>CRM design(lightgrey).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/branding-image-new_final.png</image:loc>
-        <image:title>branding-image-new_final.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-1.png</image:loc>
+        <image:title>E-commerce-1.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-new.png</image:loc>
-        <image:title>E-commerce-new.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Digital%20Marketing%20Service%20(1).png</image:loc>
-        <image:title>Digital Marketing Service (1).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Digital%20Marketing-1.png</image:loc>
+        <image:title>Digital Marketing-1.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Software%E2%80%99s-Service-copy-0001.jpg</image:loc>
-        <image:title>Accounting-Software’s-Service.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/graphics-1.png</image:loc>
+        <image:title>graphics-1.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://beyonderissolutions.com/blog/Why-Small-Businesses-Need-Custom-Software-Development</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/Why-Small-Businesses-Need-Custom-Software-Development%20(1)-copy-3870.jpg</image:loc>
-        <image:title>blogInner_1</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://beyonderissolutions.com/blog/Importance-of-Search-Engine-Optimization-for-Small-Businesses</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/Importance-of-Search-Engine-Optimization-for-Small-Businesses.jpg</image:loc>
-        <image:title>blogInner_1</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://beyonderissolutions.com/blog/6-Most-Important-Digital-Assets-for-E-Commerce-Business</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(1).jpg</image:loc>
-        <image:title>blogInner_1</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://beyonderissolutions.com/blog/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(2).jpg</image:loc>
-        <image:title>blogInner_1</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://beyonderissolutions.com/blog/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(2).jpg</image:loc>
-        <image:title>blogInner_1</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/app-development-1.png</image:loc>
+        <image:title>app-development-1.png</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/blog/Key-Benefits-of-Having-a-Mobile-App-for-Your-Business</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/mob2-copy-7346.jpg</image:loc>
         <image:title>blogInner_1</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/blog/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(2).jpg</image:loc>
+        <image:title>blogInner_1</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/services/Graphic-Design</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/blog/Importance-of-Search-Engine-Optimization-for-Small-Businesses</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/Importance-of-Search-Engine-Optimization-for-Small-Businesses.jpg</image:loc>
+        <image:title>blogInner_1</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/Importance-of-Search-Engine-Optimization-for-Small-Businesses%20(1).jpg</image:loc>
-        <image:title>Importance-of-Search-Engine-Optimization-for-Small-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://beyonderissolutions.com/blog/How-to-Outsource-Your-Business-Digital-Marketing</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/digital-marketing-copy-5114.jpg</image:loc>
         <image:title>blogInner_1</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
       </image:image>
   </url>
   <url>
-    <loc>https://beyonderissolutions.com/blog/Does-My-Small-Business-Need-a-Website</loc>
+    <loc>https://beyonderissolutions.com/blog/6-Most-Important-Digital-Assets-for-E-Commerce-Business</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(1).jpg</image:loc>
+        <image:title>blogInner_1</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
       </image:image>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/services/Accounting-Software%E2%80%99s</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/case-study/COSMOS-ARCHITECTURE</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/blog/Does-My-Small-Business-Need-a-Website</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/blowebsite.jpg</image:loc>
         <image:title>blogInner_1</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make%20(1).jpg</image:loc>
-        <image:title>7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/6-Most-Important-Digital-Assets-for-E-commerce-Business%20(2).jpg</image:loc>
-        <image:title>6-Most-Important-Digital-Assets-for-E-commerce-Business (2).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(1).jpg</image:loc>
-        <image:title>What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses (1).jpg</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
       </image:image>
   </url>
   <url>
+    <loc>https://admin.beyonderissolutions.com/services/App-Development</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/blog/How-Can-You-Empower-Your-E-Commerce-Store</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(1)%20(1)-copy-0150.jpg</image:loc>
+        <image:title>blogInner_1</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/case-study/ELEVATE-HOMES-FITOUT</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/case-study/Luxury-Explorers-Collection</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/services/Ecommerce-Development</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/blog/Custom-Website-Solutions-for-Businesses-in-Dubai</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/Custom-Website-Solutions-for-Businesses-in-Dubai.jpg</image:loc>
+        <image:title>blogInner_1</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/services/Web-Development</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/blog/Why-Small-Businesses-Need-Custom-Software-Development</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/Why-Small-Businesses-Need-Custom-Software-Development%20(1)-copy-3870.jpg</image:loc>
+        <image:title>blogInner_1</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/services/CRM-&amp;-ERP-Development</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/services/Digital-Marketing</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beyonderissolutions.com/blog/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses</loc>
+    <lastmod>2021-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses%20(2).jpg</image:loc>
+        <image:title>blogInner_1</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/blog/all-blogs/How%20to%20Empower%20Your%20E-Commerce%20Store%20(2).jpg</image:loc>
+        <image:title>How to Empower Your E-Commerce Store (2).jpg</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/Key-Benefits-of-Having-a-Mobile-App-for-Your-Business</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/6-Most-Important-Digital-Assets-for-E-Commerce-Business</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/How-to-Outsource-Your-Business-Digital-Marketing</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/Why-Small-Businesses-Need-Custom-Software-Development</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/Custom-Website-Solutions-for-Businesses-in-Dubai</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/How-Can-You-Empower-Your-E-Commerce-Store</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/Importance-of-Search-Engine-Optimization-for-Small-Businesses</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/Does-My-Small-Business-Need-a-Website</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://admin.beyonderissolutions.com/blog/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses</loc>
+    <lastmod>2021-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://beyonderissolutions.com/services/Web%20Development</loc>
+    <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/header/company%20inner%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://beyonderissolutions.com/img/logo-png-vertical.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/services/banner/web-Design-Development1%20(1).png</image:loc>
         <image:title>web-Design-Development1 (1).png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/website-dev.png</image:loc>
-        <image:title>website-dev.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/web-developement-1-copy-7633.png</image:loc>
+        <image:title>web-developement-1.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/languages(cleaned).png</image:loc>
-        <image:title>languages(cleaned).png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/service-details/web-developement-2.png</image:loc>
+        <image:title>web-developement-2.png</image:title>
       </image:image>
       <image:image>
         <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-Cosmos-architecture.jpg</image:loc>
@@ -1059,28 +890,24 @@
         <image:title>case-study-elevate-homes.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/case-study-event-explorers-copy-4835.jpg</image:loc>
-        <image:title>case-study-event-explorers.jpg</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/casestudy/all-casestudies/Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:loc>
+        <image:title>Luxury-Explorers-Collection-Case-Study-Imae.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/MB-icon.png</image:loc>
-        <image:title>MB-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/crm-erp-Service.png</image:loc>
+        <image:title>crm-erp-Service.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/erp-crm-icon-v2.png</image:loc>
-        <image:title>erp-crm-icon-v2.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce-Service.png.png</image:loc>
+        <image:title>E-commerce-Service.png.png</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/GD-icon.png</image:loc>
-        <image:title>GD-icon.png</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/Accounting-Softwares-Service-copy-4329.jpg</image:loc>
+        <image:title>Accounting-Softwares-Service.jpg</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/E-commerce.png</image:loc>
-        <image:title>E-commerce.png</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://admin.beyonderissolutions.com/media/images/footer/home%20logo.png</image:loc>
-        <image:title>beyond eris solutions logo</image:title>
+        <image:loc>https://admin.beyonderissolutions.com/media/images/services/all-services/digital-marketing-Service.png</image:loc>
+        <image:title>digital-marketing-Service.png</image:title>
       </image:image>
   </url>
 </urlset>

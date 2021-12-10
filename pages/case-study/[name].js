@@ -15,6 +15,7 @@ import {
   getServices,
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
+import WEBSITE_URL from "../../utils/constants";
 import PageHead from "../../components/PageHead";
 import { encodeURL, decodeURL } from "../../utils/urlManager";
 
@@ -50,7 +51,7 @@ function CaseStudyDetail({ data, header, footer, contact, services }) {
       <PageHead
         pageTitle={data?.company?.name}
         pageDescription={data?.company?.description}
-        pageURL={`${API_URL}/case-study/${encodeURL(data?.company?.name)}`}
+        pageURL={`${WEBSITE_URL}/case-study/${encodeURL(data?.company?.name)}`}
         pageImageURL={`${API_URL}${data?.company?.logo?.url}`}
       />
 

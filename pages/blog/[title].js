@@ -16,6 +16,7 @@ import {
   API_URL,
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
+import WEBSITE_URL from "../../utils/constants";
 import PageHead from "../../components/PageHead";
 import { encodeURL, decodeURL } from "../../utils/urlManager";
 import extractContent from "../../utils/contentExtractor";
@@ -34,7 +35,7 @@ function BlogPost(props) {
               )
             : extractContent(`${blogPostData?.blogDetails}`)
         }
-        pageURL={`${API_URL}/blog/${encodeURL(blogPostData?.title)}`}
+        pageURL={`${WEBSITE_URL}/blog/${encodeURL(blogPostData?.title)}`}
         pageImageURL={`${API_URL}${blogPostData?.blogThumnail?.url}`}
       />
 

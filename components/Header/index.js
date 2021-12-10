@@ -83,40 +83,25 @@ function Header({ data }) {
               <a className={location[1] === "" ? "active" : ""}>Home</a>
             </Link>
             <Link href="/case-study">
-              <a
-                className={
-                  location[1] === "case-study" ||
-                  location[1] === "case-study-details"
-                    ? "active"
-                    : ""
-                }
-              >
+              <a className={location.includes("case-study") ? "active" : ""}>
                 Case Study
               </a>
             </Link>
             <Link href="/services">
-              <a className={location[1] === "services" ? "active" : ""}>
+              <a className={location.includes("services") ? "active" : ""}>
                 Services
               </a>
             </Link>
             <Link href="/blog">
-              <a
-                className={
-                  location[1] === "blogs" || location[1] === "blog-details"
-                    ? "active"
-                    : ""
-                }
-              >
-                Blogs
-              </a>
+              <a className={location.includes("blog") ? "active" : ""}>Blog</a>
             </Link>
             <Link href="/about-us">
-              <a className={location[1] === "about-us" ? "active" : ""}>
+              <a className={location.includes("about-us") ? "active" : ""}>
                 About
               </a>
             </Link>
             <Link href="/contact">
-              <a className={location[1] === "contact" ? "active" : ""}>
+              <a className={location.includes("contact") ? "active" : ""}>
                 Contact
               </a>
             </Link>
