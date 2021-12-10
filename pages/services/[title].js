@@ -19,6 +19,7 @@ import {
   API_URL,
 } from "../../apiServices";
 import isEmpty from "../../utils/isEmpty";
+import WEBSITE_URL from "../../utils/constants";
 import PageHead from "../../components/PageHead";
 import { encodeURL, decodeURL } from "../../utils/urlManager";
 import extractContent from "../../utils/contentExtractor";
@@ -41,7 +42,7 @@ const ServiceDetails = (props) => {
               )
             : extractContent(`${data?.serviceDetailSections[0]?.description}`)
         }
-        pageURL={`${API_URL}/services/${encodeURL(
+        pageURL={`${WEBSITE_URL}/services/${encodeURL(
           data?.serviceDetails?.heading
         )}`}
         pageImageURL={`${API_URL}${data?.serviceDetails.serviceImage?.url}`}
