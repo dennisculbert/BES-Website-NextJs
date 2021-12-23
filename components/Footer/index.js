@@ -70,7 +70,7 @@ function Footer({ footerData, contactData, serviceData }) {
                     <strong>Services</strong>
                     <ul>
                       {serviceData.services
-                        .sort(getSorting("desc", "heading"))
+                        .sort(getSorting("desc", "createdAt"))
                         .map((item) => (
                           <li key={item._id}>
                             <Link href={`/services/${encodeURL(item.heading)}`}>
