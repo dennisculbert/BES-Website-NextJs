@@ -63,6 +63,9 @@ function Footer({ footerData, contactData, serviceData }) {
                       <li>
                         <Link href="/contact">Contact</Link>
                       </li>
+                      <li>
+                        <Link href="/sitemap">Sitemap</Link>
+                      </li>
                     </ul>
                   </div>
 

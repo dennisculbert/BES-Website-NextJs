@@ -29,6 +29,12 @@ a {
   border-radius: 4px;
 }
 
+.sitemap {
+  a {
+    color: #2e6091;
+  }
+}
+
 // Components
 @import "components/header";
 @import "components/footer";
