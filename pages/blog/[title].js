@@ -36,7 +36,7 @@ function BlogPost(props) {
             : extractContent(`${blogPostData?.blogDetails}`)
         }
         pageURL={`${WEBSITE_URL}/blog/${encodeURL(blogPostData?.title)}`}
-        pageImageURL={`${API_URL}${blogPostData?.blogThumnail?.url}`}
+        pageImageURL={`${API_URL}${blogPostData?.blogImage?.url}`}
       />
 
       {/* Header */}
