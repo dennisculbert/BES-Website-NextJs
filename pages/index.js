@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Script from "next/script";
+// import Script from "next/script";
 import { Container } from "react-bootstrap";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -39,7 +39,7 @@ function Home(props) {
       />
 
       {/* Global site tag (gtag.js) - Google Analytics */}
-      <Script
+      {/* <Script
         src="https://www.googletagmanager.com/gtag/js?id=UA-201901673-1"
         strategy="afterInteractive"
       />
@@ -50,7 +50,7 @@ function Home(props) {
           gtag('js', new Date());
           gtag('config', 'UA-201901673-1');
         `}
-      </Script>
+      </Script> */}
 
       {/* <main> */}
       <Header data={header} />
