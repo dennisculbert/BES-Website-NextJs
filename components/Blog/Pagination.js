@@ -13,7 +13,9 @@ const Pagination = ({ blogsPerPage, totalBlogs, paginate, currentPage }) => {
         {pageNumbers.map((number) => (
           <li
             key={number}
-            className={(currentPage === number ? "active" : "") + "page-number"}
+            className={
+              currentPage === number ? "active page-number" : "page-number"
+            }
           >
             <span
               role="button"
