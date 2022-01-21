@@ -5,6 +5,7 @@ import { Row, Col } from "react-bootstrap";
 import StarRatings from "react-star-ratings";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import HappyClientModal from "./HappyClientsModal";
+import { API_URL } from "../../apiServices";
 
 const settings = {
   dots: false,
@@ -64,74 +65,144 @@ function OurHappyClients({ happyClients }) {
           <Col xs={1} />
           <Col xs={10}>
             <Slider {...settings}>
-              {happyClients.map((client) => (
-                <div key={client.profile_photo_url}>
-                  <div className="slider-div">
-                    <div
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => {
-                        setClientData(client);
-                        setModalShow(true);
-                      }}
-                      className="client-slide container"
-                    >
-                      <Row
-                        style={{
-                          padding: "5px 0px",
-                          boxSizing: "border-box",
+              {happyClients.length > 0 &&
+                happyClients.map((client) => (
+                  // For Google Clients
+                  // <div key={client.profile_photo_url}>
+                  //   <div className="slider-div">
+                  //     <div
+                  //       role="button"
+                  //       tabIndex={0}
+                  //       onClick={() => {
+                  //         setClientData(client);
+                  //         setModalShow(true);
+                  //       }}
+                  //       className="client-slide container"
+                  //     >
+                  //       <Row
+                  //         style={{
+                  //           padding: "5px 0px",
+                  //           boxSizing: "border-box",
+                  //         }}
+                  //       >
+                  //         <Col
+                  //           sm={3}
+                  //           style={{
+                  //             display: "flex",
+                  //             justifyContent: "center",
+                  //             paddingRight: "0px",
+                  //             paddingTop: "10px",
+                  //           }}
+                  //         >
+                  //           <div className="client-img">
+                  //             <img src={client.profile_photo_url} alt="" />
+                  //           </div>
+                  //         </Col>
+                  //         <Col
+                  //           sm={9}
+                  //           className="pb-md-0 pb-3"
+                  //           style={{ paddingTop: "10px" }}
+                  //         >
+                  //           <h3 className="client-name">{client.author_name}</h3>
+                  //           <div className="star-section">
+                  //             <StarRatings
+                  //               rating={client.rating}
+                  //               starEmptyColor="grey"
+                  //               starRatedColor="#E38106"
+                  //               numberOfStars={5}
+                  //               starDimension="15px"
+                  //               starSpacing="0px"
+                  //               name="rating"
+                  //             />
+                  //             <span>{client.relative_time_description}</span>
+                  //           </div>
+                  //           <div className="client-comment">
+                  //             <p>
+                  //               {client.text.length > 150
+                  //                 ? `${client.text.substring(0, 130)}...`
+                  //                 : client.text}
+                  //             </p>
+                  //           </div>
+                  //         </Col>
+                  //       </Row>
+                  //     </div>
+                  //     {/* Component here */}
+                  //     <HappyClientModal
+                  //       clientData={clientData}
+                  //       show={modalShow}
+                  //       onHide={() => setModalShow(false)}
+                  //     />
+                  //   </div>
+                  // </div>
+                  <div key={client.clientImage.path}>
+                    <div className="slider-div">
+                      <div
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => {
+                          setClientData(client);
+                          setModalShow(true);
                         }}
+                        className="client-slide container"
                       >
-                        <Col
-                          sm={3}
+                        <Row
                           style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            paddingRight: "0px",
-                            paddingTop: "10px",
+                            padding: "5px 0px",
+                            boxSizing: "border-box",
                           }}
                         >
-                          <div className="client-img">
-                            <img src={client.profile_photo_url} alt="" />
-                          </div>
-                        </Col>
-                        <Col
-                          sm={9}
-                          className="pb-md-0 pb-3"
-                          style={{ paddingTop: "10px" }}
-                        >
-                          <h3 className="client-name">{client.author_name}</h3>
-                          <div className="star-section">
-                            <StarRatings
-                              rating={client.rating}
-                              starEmptyColor="grey"
-                              starRatedColor="#E38106"
-                              numberOfStars={5}
-                              starDimension="15px"
-                              starSpacing="0px"
-                              name="rating"
-                            />
-                            <span>{client.relative_time_description}</span>
-                          </div>
-                          <div className="client-comment">
-                            <p>
-                              {client.text.length > 150
-                                ? `${client.text.substring(0, 130)}...`
-                                : client.text}
-                            </p>
-                          </div>
-                        </Col>
-                      </Row>
+                          <Col
+                            sm={3}
+                            style={{
+                              display: "flex",
+                              justifyContent: "center",
+                              paddingRight: "0px",
+                              paddingTop: "10px",
+                            }}
+                          >
+                            <div className="client-img">
+                              <img
+                                src={API_URL + client.clientImage.url}
+                                alt=""
+                              />
+                            </div>
+                          </Col>
+                          <Col
+                            sm={9}
+                            className="pb-md-0 pb-3"
+                            style={{ paddingTop: "10px" }}
+                          >
+                            <h3 className="client-name">{client.name}</h3>
+                            <div className="star-section">
+                              <StarRatings
+                                rating={5}
+                                starEmptyColor="grey"
+                                starRatedColor="#E38106"
+                                numberOfStars={5}
+                                starDimension="15px"
+                                starSpacing="0px"
+                                name="rating"
+                              />
+                            </div>
+                            <div className="client-comment">
+                              <p>
+                                {client?.comment?.length > 150
+                                  ? `${client?.comment?.substring(0, 130)}...`
+                                  : client?.comment}
+                              </p>
+                            </div>
+                          </Col>
+                        </Row>
+                      </div>
+                      {/* Component here */}
+                      <HappyClientModal
+                        clientData={clientData}
+                        show={modalShow}
+                        onHide={() => setModalShow(false)}
+                      />
                     </div>
-                    {/* Component here */}
-                    <HappyClientModal
-                      clientData={clientData}
-                      show={modalShow}
-                      onHide={() => setModalShow(false)}
-                    />
                   </div>
-                </div>
-              ))}
+                ))}
             </Slider>
           </Col>
           <Col xs={1} />
