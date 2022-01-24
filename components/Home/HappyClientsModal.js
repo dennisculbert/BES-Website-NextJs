@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import StarRatings from "react-star-ratings";
+import Image from "next/image";
 import { Modal, Row, Col, Container } from "react-bootstrap";
 import { API_URL } from "../../apiServices";
 
@@ -61,10 +62,16 @@ function HappyClientModal({ clientData, ...rest }) {
                   }}
                 >
                   <div className="client-img">
-                    <img
+                    {/* <img
                       src={API_URL + clientData?.clientImage?.url}
                       alt={clientData?.name}
                       loading="lazy"
+                    /> */}
+                    <Image
+                      src={API_URL + clientData?.clientImage?.url}
+                      alt={clientData?.name}
+                      width={70}
+                      height={70}
                     />
                   </div>
                 </Col>

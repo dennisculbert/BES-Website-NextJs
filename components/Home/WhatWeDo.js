@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import parse from "html-react-parser";
 import Link from "next/link";
+import Image from "next/image";
 import { API_URL } from "../../apiServices";
 import { encodeURL } from "../../utils/urlManager";
 import getSorting from "../../utils/getSorting";
@@ -34,10 +35,16 @@ function WhatWeDo({ whatWeDoData, services }) {
                         <Card className="home_card">
                           <Card.Body>
                             <div className="home_card-div">
-                              <img
+                              {/* <img
                                 src={API_URL + service.serviceIcon.url}
                                 alt={service.serviceIcon.filename}
                                 loading="lazy"
+                              /> */}
+                              <Image
+                                src={API_URL + service.serviceIcon.url}
+                                alt={service.serviceIcon.filename}
+                                width={40}
+                                height={40}
                               />
                             </div>
                             <Card.Title className="py-2 card_title">

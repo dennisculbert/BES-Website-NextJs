@@ -1,5 +1,6 @@
 import { Row, Col, Button, Container } from "react-bootstrap";
 import PropTypes from "prop-types";
+import Image from "next/image";
 import Link from "next/link";
 import { API_URL } from "../../apiServices";
 
@@ -29,11 +30,21 @@ function HomeBanner({ data }) {
               </Link>
             </div>
           </Col>
-          <Col md={6} className="banner_img pt-md-5 pt-4">
-            <img
+          <Col
+            md={6}
+            className="banner_img pt-md-5 pt-4 d-flex justify-content-center"
+          >
+            {/* <img
               src={API_URL + data.sectionImage.url}
               alt={data.sectionImage.filename}
               loading="lazy"
+            /> */}
+            <Image
+              src={API_URL + data.sectionImage.url}
+              alt={data.sectionImage.filename}
+              width={400}
+              height={400}
+              priority
             />
           </Col>
         </Row>

@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
 import { ToastContainer } from "react-toastify";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import Spacer from "./spacer";
 import ContactBox from "./contactBox";
@@ -100,17 +101,24 @@ function Footer({ footerData, contactData, serviceData }) {
                     <a href={`tel:+${contactData.contactCard.phone}`}>
                       <li>+{contactData.contactCard.phone}</li>
                     </a>
-                    <div className="footer_socialIcons">
+                    <div className="footer_socialIcons d-flex justify-content-around">
                       <a
                         href={footerData.facebookLink}
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        {/* <img
                           className="footer_icons"
                           src={facebook}
                           alt="facebook"
                           loading="lazy"
+                        /> */}
+                        <Image
+                          className="footer_icons"
+                          src={facebook}
+                          alt="facebook"
+                          width={38}
+                          height={38}
                         />
                       </a>
                       <a
@@ -118,11 +126,18 @@ function Footer({ footerData, contactData, serviceData }) {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        {/* <img
                           className="footer_icons"
                           src={twitter}
                           alt="twitter"
                           loading="lazy"
+                        /> */}
+                        <Image
+                          className="footer_icons"
+                          src={twitter}
+                          alt="twitter"
+                          width={38}
+                          height={38}
                         />
                       </a>
                       <a
@@ -130,11 +145,18 @@ function Footer({ footerData, contactData, serviceData }) {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        {/* <img
                           className="footer_icons"
                           src={Linkedin}
                           alt="Linkedin"
                           loading="lazy"
+                        /> */}
+                        <Image
+                          className="footer_icons"
+                          src={Linkedin}
+                          alt="Linkedin"
+                          width={38}
+                          height={38}
                         />
                       </a>
                       <a
@@ -142,11 +164,18 @@ function Footer({ footerData, contactData, serviceData }) {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        {/* <img
                           className="footer_icons"
                           src={insta}
                           alt="instagram"
                           loading="lazy"
+                        /> */}
+                        <Image
+                          className="footer_icons"
+                          src={insta}
+                          alt="instagram"
+                          width={38}
+                          height={38}
                         />
                       </a>
                     </div>
@@ -158,40 +187,44 @@ function Footer({ footerData, contactData, serviceData }) {
         </Container>
       </Container>
 
-      <Row className="footer_socialIcons_last pt-3 pb-3 mx-0">
+      {/* <Row className="footer_socialIcons_last pt-3 pb-3 mx-0">
         <a href={footerData.facebookLink} target="_blank" rel="noreferrer">
-          <img
+          <Image
             className="footer_icons"
-            src={`${facebook}`}
+            src={facebook}
             alt="facebook"
-            loading="lazy"
+            width={38}
+            height={38}
           />
         </a>
         <a href={footerData.twitterLink} target="_blank" rel="noreferrer">
-          <img
+          <Image
             className="footer_icons"
-            src={`${twitter}`}
-            alt="Twitter"
-            loading="lazy"
+            src={twitter}
+            alt="twitter"
+            width={38}
+            height={38}
           />
         </a>
         <a href={footerData.linkedInLink} target="_blank" rel="noreferrer">
-          <img
+          <Image
             className="footer_icons"
-            src={`${Linkedin}`}
-            alt="LinkedIn"
-            loading="lazy"
+            src={Linkedin}
+            alt="Linkedin"
+            width={38}
+            height={38}
           />
         </a>
         <a href={footerData.instagramLink} target="_blank" rel="noreferrer">
-          <img
+          <Image
             className="footer_icons"
-            src={`${insta}`}
+            src={insta}
             alt="instagram"
-            loading="lazy"
+            width={38}
+            height={38}
           />
         </a>
-      </Row>
+      </Row> */}
       <Container fluid className="footer_last_row">
         <Row>
           <Container>

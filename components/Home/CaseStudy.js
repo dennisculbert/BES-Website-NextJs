@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import Link from "next/link";
+// import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import { API_URL } from "../../apiServices";
 import { encodeURL } from "../../utils/urlManager";
@@ -44,6 +45,13 @@ function CaseStudy({ homeCaseStudy, caseStudyData }) {
                       src={API_URL + item.company.logo.url}
                       alt={item.company.filename}
                     />
+                    {/* <Image
+                      className="case_studyImg"
+                      src={API_URL + item.company.logo.url}
+                      alt={item.company.filename}
+                      width={450}
+                      height={320}
+                    /> */}
                   </div>
                 </Card.Body>
               </Card>

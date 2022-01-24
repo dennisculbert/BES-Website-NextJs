@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import Image from "next/image";
 import Link from "next/link";
 import { API_URL } from "../../apiServices";
 
@@ -18,10 +19,17 @@ function WhoWeAre({ data }) {
             </Link>
           </Col>
           <Col md={6} className="text-center who-image">
-            <img
+            {/* <img
               src={API_URL + data.sectionImage.url}
               alt={data.sectionImage.filename}
               loading="lazy"
+            /> */}
+            <Image
+              src={API_URL + data.sectionImage.url}
+              alt={data.sectionImage.filename}
+              width={447}
+              height={481}
+              priority
             />
           </Col>
         </Row>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import Slider from "react-slick";
+import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
 import StarRatings from "react-star-ratings";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -161,10 +162,16 @@ function OurHappyClients({ happyClients }) {
                             }}
                           >
                             <div className="client-img">
-                              <img
+                              {/* <img
                                 src={API_URL + client.clientImage.url}
                                 alt=""
                                 loading="lazy"
+                              /> */}
+                              <Image
+                                src={API_URL + client.clientImage.url}
+                                alt={client?.name}
+                                width={70}
+                                height={70}
                               />
                             </div>
                           </Col>

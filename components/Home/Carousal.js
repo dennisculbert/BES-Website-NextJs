@@ -21,7 +21,6 @@ function Carousal({ portfolioImages = [] }) {
           alt="portfolio"
           width={1080}
           height={500}
-          // layout="fill"
         />
       ))}
     </Carousel>
