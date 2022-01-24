@@ -44,6 +44,7 @@ function CaseStudy({ homeCaseStudy, caseStudyData }) {
                       className="case_studyImg"
                       src={API_URL + item.company.logo.url}
                       alt={item.company.filename}
+                      loading="lazy"
                     />
                     {/* <Image
                       className="case_studyImg"
