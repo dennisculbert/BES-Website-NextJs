@@ -38,6 +38,8 @@ function Footer({ footerData, contactData, serviceData }) {
                         className="footer_logo"
                         alt="beyond eris solutions logo"
                         loading="lazy"
+                        width={1530}
+                        height={60}
                       />
                     </a>
                   </Link>

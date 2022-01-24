@@ -63,12 +63,16 @@ function Header({ data }) {
             className="logo-path"
             src={API_URL + link}
             alt="beyond eris solutions logo"
+            width={1530}
+            height={60}
           />
           {/* Logo for Mobile */}
           <img
             className="dark-logo"
             src={API_URL + link}
             alt="beyond eris solutions logo"
+            width={1530}
+            height={60}
           />
         </Navbar.Brand>
         <Navbar.Toggle
