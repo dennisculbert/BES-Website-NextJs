@@ -8,8 +8,6 @@ import { useRouter } from "next/router";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { API_URL } from "../../apiServices";
 
-const DarkLogo = "/img/logo-png-vertical.png";
-
 function Header({ data }) {
   const router = useRouter();
 
@@ -69,7 +67,7 @@ function Header({ data }) {
           {/* Logo for Mobile */}
           <img
             className="dark-logo"
-            src={DarkLogo}
+            src={API_URL + link}
             alt="beyond eris solutions logo"
           />
         </Navbar.Brand>
