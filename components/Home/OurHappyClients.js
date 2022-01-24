@@ -95,7 +95,7 @@ function OurHappyClients({ happyClients }) {
                   //           }}
                   //         >
                   //           <div className="client-img">
-                  //             <img src={client.profile_photo_url} alt="" />
+                  //             <img src={client.profile_photo_url} alt="" loading="lazy" />
                   //           </div>
                   //         </Col>
                   //         <Col
@@ -164,6 +164,7 @@ function OurHappyClients({ happyClients }) {
                               <img
                                 src={API_URL + client.clientImage.url}
                                 alt=""
+                                loading="lazy"
                               />
                             </div>
                           </Col>
