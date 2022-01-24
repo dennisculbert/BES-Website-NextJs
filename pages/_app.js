@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../styles/globals.scss";
 
 const tagManagerArgs = {
-  id: "GTM-KTZGQ76",
+  gtmId: "GTM-KTZGQ76",
 };
 
 function MyApp({ Component, pageProps }) {
