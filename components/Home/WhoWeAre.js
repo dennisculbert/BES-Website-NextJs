@@ -14,7 +14,7 @@ function WhoWeAre({ data }) {
             <p className="who_we_are_p-tag tag-width">{data.description}</p>
             <Link href="/about-us">
               <a>
-                <Button className="btn_get-now">Read More</Button>
+                <Button className="btn_get-now">Know More</Button>
               </a>
             </Link>
           </Col>

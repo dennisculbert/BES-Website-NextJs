@@ -17,7 +17,7 @@ function CaseStudy({ homeCaseStudy, caseStudyData }) {
         <Row className="justify-content-center mb-5">
           <Link href="/case-study">
             <a>
-              <Button className="case_study_btn">Learn More</Button>
+              <Button className="case_study_btn">Explore Now</Button>
             </a>
           </Link>
         </Row>
@@ -43,7 +43,7 @@ function CaseStudy({ homeCaseStudy, caseStudyData }) {
                     <Card.Img
                       className="case_studyImg"
                       src={API_URL + item.company.logo.url}
-                      alt={item.company.filename}
+                      alt={item.company.name}
                       loading="lazy"
                     />
                     {/* <Image
