@@ -66,10 +66,10 @@ function Header({ data }) {
             width={1530}
             height={60}
           />
-          {/* Logo for Mobile */}
+          {/* Logo for Mobile (Other pages except home page) */}
           <img
             className="dark-logo"
-            src={API_URL + link}
+            src={API_URL + data.headerDarkLogo.url}
             alt="beyond eris solutions logo"
             width={1530}
             height={60}
