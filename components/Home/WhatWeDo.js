@@ -19,7 +19,7 @@ function WhatWeDo({ whatWeDoData, services }) {
             <p className="who_we_are_p-tag pr-4">{whatWeDoData.description}</p>
             <Link href="/services">
               <a>
-                <Button className="btn_get-now">More Information</Button>
+                <Button className="btn_get-now">Get Details</Button>
               </a>
             </Link>
           </Col>
