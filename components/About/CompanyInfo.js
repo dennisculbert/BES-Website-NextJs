@@ -9,7 +9,7 @@ function CompanyInfo({ data }) {
           <Row className="my-md-5 my-3 company_info_detail">
             <Col md={3} xs={6}>
               <h1 className="text-white mb-3">{data.happyClients}+</h1>
-              <p className="text-light">Happy Cients</p>
+              <p className="text-light">Happy Clients</p>
             </Col>
             <Col md={3} xs={6}>
               <h1 className="text-white mb-3">{data.completedProjects}+</h1>
