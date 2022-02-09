@@ -16,9 +16,6 @@ import {
 } from "../apiServices";
 import PageHead from "../components/PageHead";
 
-const PAGE_TITLE = "About | Beyond Eris Solutions";
-const PAGE_DESCRIPTION =
-  "Beyond Eris solutions is helping clients transform their businesses digitally by providing excellent custom software solutions. Motivated with the mission intend to blur the gap between creativity and technology we aim to help customers by creating an excellent pathway for the success of their business.";
 const PAGE_URL = "https://beyonderissolutions.com/about-us";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -27,8 +24,7 @@ function About({ data, header, footer, services, contact }) {
   return (
     <>
       <PageHead
-        pageTitle={PAGE_TITLE}
-        pageDescription={PAGE_DESCRIPTION}
+        pageMeta={data?.meta}
         pageURL={PAGE_URL}
         pageImageURL={PAGE_IMAGE_URL}
       />

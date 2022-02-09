@@ -14,14 +14,10 @@ import {
   RedditIcon,
 } from "react-share";
 import { API_URL } from "../../apiServices";
-import { encodeURL, decodeURL } from "../../utils/urlManager";
 
-const BlogIcon = ({ blogTitle, blogImage }) => {
-  const blogURL = `https://beyonderissolutions.com/blog/${encodeURL(
-    blogTitle
-  )}`;
+const BlogIcon = ({ blogSlug, blogTitle, blogImage }) => {
+  const blogURL = `https://beyonderissolutions.com/blog/${blogSlug}`;
   const blogImageURL = API_URL + blogImage.url;
-  const decodedBlogTitle = decodeURL(blogTitle);
 
   return (
     <>
@@ -30,12 +26,12 @@ const BlogIcon = ({ blogTitle, blogImage }) => {
           <p>Share</p>
         </div>
         <div className="ml-4">
-          <FacebookShareButton url={blogURL} quote={decodedBlogTitle}>
+          <FacebookShareButton url={blogURL} quote={blogTitle}>
             <FacebookIcon size={32} round />
           </FacebookShareButton>
         </div>
         <div className="ml-2">
-          <TwitterShareButton url={blogURL} title={decodedBlogTitle}>
+          <TwitterShareButton url={blogURL} title={blogTitle}>
             <TwitterIcon size={32} round />
           </TwitterShareButton>
         </div>
@@ -50,14 +46,14 @@ const BlogIcon = ({ blogTitle, blogImage }) => {
           </PinterestShareButton>
         </div>
         <div className="ml-2">
-          <TumblrShareButton url={blogURL} title={decodedBlogTitle}>
+          <TumblrShareButton url={blogURL} title={blogTitle}>
             <TumblrIcon size={32} round />
           </TumblrShareButton>
         </div>
         <div className="ml-2">
           <RedditShareButton
             url={blogURL}
-            title={decodedBlogTitle}
+            title={blogTitle}
             windowWidth={660}
             windowHeight={460}
           >
@@ -70,6 +66,7 @@ const BlogIcon = ({ blogTitle, blogImage }) => {
 };
 
 BlogIcon.propTypes = {
+  blogSlug: PropTypes.string.isRequired,
   blogTitle: PropTypes.string.isRequired,
   blogImage: PropTypes.object.isRequired,
 };

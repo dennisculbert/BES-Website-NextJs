@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import { Col } from "react-bootstrap";
 import Link from "next/link";
-import { encodeURL } from "../../utils/urlManager";
 
 const BlogSidebar = ({ blogs }) => (
   <>
@@ -14,7 +13,7 @@ const BlogSidebar = ({ blogs }) => (
         </a>
       </Link>
       {blogs.slice(0, 8).map((item) => (
-        <Link key={item._id} href={`/blog/${encodeURL(item.title)}`}>
+        <Link key={item._id} href={`/blog/${item.slug}`}>
           <a>
             <p className="inform_blogs">{item.title}</p>
           </a>

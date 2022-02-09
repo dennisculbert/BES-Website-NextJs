@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 import Spacer from "./spacer";
 import ContactBox from "./contactBox";
 import { API_URL } from "../../apiServices";
-import { encodeURL } from "../../utils/urlManager";
 import getSorting from "../../utils/getSorting";
 
 const facebook = "/img/facebook.png";
@@ -79,7 +78,7 @@ function Footer({ footerData, contactData, serviceData }) {
                         .sort(getSorting("desc", "createdAt"))
                         .map((item) => (
                           <li key={item._id}>
-                            <Link href={`/services/${encodeURL(item.heading)}`}>
+                            <Link href={`/services/${item.slug}`}>
                               {item.heading}
                             </Link>
                           </li>

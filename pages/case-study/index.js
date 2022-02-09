@@ -15,21 +15,14 @@ import {
   getServices,
 } from "../../apiServices";
 import PageHead from "../../components/PageHead";
-import { encodeURL } from "../../utils/urlManager";
 
-const PAGE_TITLE = "Case Study | Beyond Eris Solutions";
-const PAGE_DESCRIPTION =
-  "At Beyond Eris Solutions we aim to transform businesses with extended and powerful digital solutions that satisfy the needs of your business in upcoming days. Here are case studies to prove our reliability, sincerity and success stories.";
 const PAGE_URL = "https://beyonderissolutions.com/case-study";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 const renderStudyCard = (item) => (
   <div key={item._id} className="col-md-6 my-md-4 my-3 caseStudy_products">
-    <Link
-      href={`/case-study/${encodeURL(item.company.name)}`}
-      style={{ color: "#000" }}
-    >
+    <Link href={`/case-study/${item.slug}`} style={{ color: "#000" }}>
       <a>
         <img
           src={`${API_URL + item.caseStudyImage.url}`}
@@ -78,8 +71,7 @@ function CaseStudy({ data, header, footer, services, contact }) {
   return (
     <>
       <PageHead
-        pageTitle={PAGE_TITLE}
-        pageDescription={PAGE_DESCRIPTION}
+        pageMeta={data?.meta}
         pageURL={PAGE_URL}
         pageImageURL={PAGE_IMAGE_URL}
       />

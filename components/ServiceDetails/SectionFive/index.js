@@ -3,10 +3,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { Container, Row, Col } from "react-bootstrap";
 import { API_URL } from "../../../apiServices";
-import { encodeURL, decodeURL } from "../../../utils/urlManager";
 
 const ServiceDetailsSectionFive = ({ services }) => {
-  const { title } = useRouter().query;
+  const { slug } = useRouter().query;
 
   return (
     <>
@@ -17,7 +16,7 @@ const ServiceDetailsSectionFive = ({ services }) => {
           </Row>
           <Row className="service-details-section-five-inner service-details-section-five-inner-row">
             {services
-              .filter((service) => service.heading !== decodeURL(title))
+              .filter((service) => service.slug !== slug)
               .slice(0, 4)
               .map((item) => (
                 <Col
@@ -27,7 +26,7 @@ const ServiceDetailsSectionFive = ({ services }) => {
                   key={item._id}
                 >
                   <div className="service-details-section-five-icon-wrapper">
-                    <Link href={`/services/${encodeURL(item.heading)}`}>
+                    <Link href={`/services/${item.slug}`}>
                       <a>
                         <img
                           src={API_URL + item.serviceIcon.url}

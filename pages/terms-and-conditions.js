@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
 const TermsAndConditions = () => (
@@ -262,6 +263,13 @@ const TermsAndConditions = () => (
                 these Terms fоr аmendments аnd саrefully reаd the terms,
                 соnditiоns, аnd disсlаimers рrоvided аt оther раrts оf this
                 Site.
+              </p>
+            </div>
+            <div className="sub-heading">
+              <p>
+                If you have any concerns about our privacy policy and want more
+                information you can <Link href="/contact">contact us</Link> any
+                time.
               </p>
             </div>
           </Col>

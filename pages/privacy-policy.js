@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
 const PrivacyPolicy = () => (
@@ -142,6 +143,13 @@ const PrivacyPolicy = () => (
                 If yоu dо nоt аgree tо this роliсy, рleаse dо nоt use оur Site.
                 Yоur соntinued use оf the Site fоllоwing the роsting оf сhаnges
                 tо this роliсy will be deemed yоur ассeрtаnсe оf thоse сhаnges.
+              </p>
+            </div>
+            <div className="sub-heading">
+              <p>
+                If you have any concerns about our privacy policy and want more
+                information you can <Link href="/contact">contact us</Link> any
+                time.
               </p>
             </div>
           </Col>

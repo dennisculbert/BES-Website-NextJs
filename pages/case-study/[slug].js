@@ -17,7 +17,6 @@ import {
 import isEmpty from "../../utils/isEmpty";
 import WEBSITE_URL from "../../utils/constants";
 import PageHead from "../../components/PageHead";
-import { encodeURL, decodeURL } from "../../utils/urlManager";
 
 function CaseStudyDetail({ data, header, footer, contact, services }) {
   /* ============== CASE-STUDY WIRE-FRAME METHOD START ==================================== */
@@ -49,9 +48,8 @@ function CaseStudyDetail({ data, header, footer, contact, services }) {
   return (
     <>
       <PageHead
-        pageTitle={data?.company?.name}
-        pageDescription={data?.company?.description}
-        pageURL={`${WEBSITE_URL}/case-study/${encodeURL(data?.company?.name)}`}
+        pageMeta={data?.meta}
+        pageURL={`${WEBSITE_URL}/case-study/${data?.slug}`}
         pageImageURL={`${API_URL}${data?.company?.logo?.url}`}
       />
 
@@ -120,7 +118,7 @@ export async function getStaticPaths() {
 
   // Get the paths we want to pre-render based on posts
   const paths = casestudies.map((caseStudy) => ({
-    params: { name: encodeURL(caseStudy.company.name) },
+    params: { slug: caseStudy.slug },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -130,11 +128,9 @@ export async function getStaticPaths() {
 
 // This also gets called at build time
 export async function getStaticProps({ params }) {
-  // params contains the post `name`.
-  // If the route is like /posts/ABC, then params.name is ABC
-  const caseStudyDetail = await getCaseStudyDetail(
-    encodeURIComponent(decodeURL(params.name))
-  );
+  // params contains the post `slug`.
+  // If the route is like /posts/ABC, then params.slug is ABC
+  const caseStudyDetail = await getCaseStudyDetail(params.slug);
   const { banner } = await getCaseStudyData();
   const data = { ...caseStudyDetail, banner };
   const header = await getHeaderData();

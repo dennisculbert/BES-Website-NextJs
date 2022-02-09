@@ -4,7 +4,6 @@ import Link from "next/link";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { BlogPageSubscriptionForm } from "../SubscriptionForm";
 import { API_URL, MAILCHIMP_URL } from "../../apiServices";
-import { encodeURL } from "../../utils/urlManager";
 
 const blogRight = "/img/blog_right.png";
 
@@ -13,7 +12,7 @@ const SubscriptionSection = ({ data }) => (
     <Row className="trend_div">
       <Col md={8}>
         {data && (
-          <Link href={`/blog/${encodeURL(data.title)}`}>
+          <Link href={`/blog/${data.slug}`}>
             <a>
               <div style={{ position: "relative" }}>
                 <img

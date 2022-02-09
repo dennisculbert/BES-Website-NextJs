@@ -4,12 +4,11 @@ import { AiFillClockCircle } from "react-icons/ai";
 import moment from "moment";
 import Link from "next/link";
 import { API_URL } from "../../apiServices";
-import { encodeURL } from "../../utils/urlManager";
 
 const renderBlogDetails = (blogDetails, index) => (
   <Col md={12} key={index} className="d-flex  blog_rightSide_detail my-2">
     <Col xs={4} className="px-0">
-      <Link href={`/blog/${encodeURL(blogDetails.title)}`}>
+      <Link href={`/blog/${blogDetails.slug}`}>
         <a>
           <img
             src={API_URL + blogDetails.blogThumnail.url}
@@ -20,7 +19,7 @@ const renderBlogDetails = (blogDetails, index) => (
       </Link>
     </Col>
     <Col xs={8} className="">
-      <Link href={`/blog/${encodeURL(blogDetails.title)}`}>
+      <Link href={`/blog/${blogDetails.slug}`}>
         <a>
           <p>{blogDetails.title}</p>
           <span className="mr-2 clock-icon">

@@ -2,12 +2,11 @@ import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 import { API_URL } from "../../apiServices";
-import { encodeURL } from "../../utils/urlManager";
 
 // Render Single Blog
 const renderBlog = (blog) => (
   <div className="col-md-4 col-6 px-2 blogProduct_blogs" key={blog._id}>
-    <Link href={`/blog/${encodeURL(blog.title)}`}>
+    <Link href={`/blog/${blog.slug}`}>
       <a>
         <div className="blog-img-wrapper">
           <img

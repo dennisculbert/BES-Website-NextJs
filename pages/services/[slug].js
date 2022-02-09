@@ -21,8 +21,6 @@ import {
 import isEmpty from "../../utils/isEmpty";
 import WEBSITE_URL from "../../utils/constants";
 import PageHead from "../../components/PageHead";
-import { encodeURL, decodeURL } from "../../utils/urlManager";
-import extractContent from "../../utils/contentExtractor";
 
 const ServiceDetails = (props) => {
   const { data, header, footer, contact, servicesData, caseStudy, home } =
@@ -31,20 +29,8 @@ const ServiceDetails = (props) => {
   return (
     <>
       <PageHead
-        pageTitle={data?.serviceDetails?.heading}
-        pageDescription={
-          data?.serviceDetailSections[0]?.description.length > 250
-            ? extractContent(
-                `${data?.serviceDetailSections[0]?.description.substring(
-                  0,
-                  250
-                )}...`
-              )
-            : extractContent(`${data?.serviceDetailSections[0]?.description}`)
-        }
-        pageURL={`${WEBSITE_URL}/services/${encodeURL(
-          data?.serviceDetails?.heading
-        )}`}
+        pageMeta={data?.meta}
+        pageURL={`${WEBSITE_URL}/services/${data?.slug}`}
         pageImageURL={`${API_URL}${data?.serviceDetails.serviceImage?.url}`}
       />
 
@@ -106,7 +92,7 @@ export async function getStaticPaths() {
 
   // Get the paths we want to pre-render based on posts
   const paths = services.map((service) => ({
-    params: { title: encodeURL(service.heading) },
+    params: { slug: service.slug },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -116,11 +102,9 @@ export async function getStaticPaths() {
 
 // This also gets called at build time
 export async function getStaticProps({ params }) {
-  // params contains the post `title`.
-  // If the route is like /posts/ABC, then params.title is ABC
-  const data = await getServiceDetails(
-    encodeURIComponent(decodeURL(params.title))
-  );
+  // params contains the post `slug`.
+  // If the route is like /posts/ABC, then params.slug is ABC
+  const data = await getServiceDetails(params.slug);
   const header = await getHeaderData();
   const footer = await getFooterData();
   const servicesData = await getServices();

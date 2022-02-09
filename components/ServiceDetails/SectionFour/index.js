@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa";
 import { API_URL } from "../../../apiServices";
-import { encodeURL } from "../../../utils/urlManager";
 
 const ServiceDetailsSectionFour = ({ caseStudiesList, homeCaseStudy }) => (
   <Row className="py-5" style={{ backgroundColor: "#F8F8F8" }}>
@@ -31,7 +30,7 @@ const ServiceDetailsSectionFour = ({ caseStudiesList, homeCaseStudy }) => (
                       ? `${item.company.description.substring(0, 100)}...`
                       : item.company.description}
                   </Card.Text>
-                  <Link href={`/case-study/${encodeURL(item.company.name)}`}>
+                  <Link href={`/case-study/${item.slug}`}>
                     <a>
                       <FaArrowRight className="case_study_card_btn" />
                     </a>

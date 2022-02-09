@@ -18,8 +18,6 @@ import {
 import isEmpty from "../../utils/isEmpty";
 import WEBSITE_URL from "../../utils/constants";
 import PageHead from "../../components/PageHead";
-import { encodeURL, decodeURL } from "../../utils/urlManager";
-import extractContent from "../../utils/contentExtractor";
 
 function BlogPost(props) {
   const { blogData, blogPostData, header, footer, services, contact } = props;
@@ -27,15 +25,8 @@ function BlogPost(props) {
   return (
     <>
       <PageHead
-        pageTitle={blogPostData?.title}
-        pageDescription={
-          blogPostData?.blogDetails.length > 250
-            ? extractContent(
-                `${blogPostData?.blogDetails.substring(0, 250)}...`
-              )
-            : extractContent(`${blogPostData?.blogDetails}`)
-        }
-        pageURL={`${WEBSITE_URL}/blog/${encodeURL(blogPostData?.title)}`}
+        pageMeta={blogPostData?.meta}
+        pageURL={`${WEBSITE_URL}/blog/${blogPostData?.slug}`}
         pageImageURL={`${API_URL}${blogPostData?.blogImage?.url}`}
       />
 
@@ -85,7 +76,7 @@ export async function getStaticPaths() {
 
   // Get the paths we want to pre-render based on posts
   const paths = blogs.map((blog) => ({
-    params: { title: encodeURL(blog.title) },
+    params: { slug: blog.slug },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -95,12 +86,10 @@ export async function getStaticPaths() {
 
 // This also gets called at build time
 export async function getStaticProps({ params }) {
-  // params contains the post `title`.
-  // If the route is like /blog/ABC, then params.title is ABC
+  // params contains the post `slug`.
+  // If the route is like /blog/ABC, then params.slug is ABC
 
-  const blogPostData = await getBlogDetails(
-    encodeURIComponent(decodeURL(params.title))
-  );
+  const blogPostData = await getBlogDetails(params.slug);
   const blogData = await getBlogsData();
   const header = await getHeaderData();
   const footer = await getFooterData();
@@ -116,7 +105,7 @@ export async function getStaticProps({ params }) {
   // Pass post data to the page via props
   return {
     props: { blogPostData, blogData, services, header, footer, contact },
-    revalidate: 10,
+    revalidate: 1,
   };
 }
 

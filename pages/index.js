@@ -19,9 +19,6 @@ import {
 } from "../apiServices";
 import PageHead from "../components/PageHead";
 
-const PAGE_TITLE = "Beyond Eris Solutions | Software Development Company";
-const PAGE_DESCRIPTION =
-  "Beyond Eris Solutions (Dubai) is a team of tech specialists who are engaged to help you employ top-notch digital products and solutions that are tailor-made to your business requirements and are based on innovative next-generation sоftwаrе sоlutіоns.";
 const PAGE_URL = "https://beyonderissolutions.com";
 const PAGE_IMAGE_URL =
   "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
@@ -32,18 +29,12 @@ function Home(props) {
   return (
     <div>
       <PageHead
-        pageTitle={PAGE_TITLE}
-        pageDescription={PAGE_DESCRIPTION}
+        pageMeta={home?.meta}
         pageURL={PAGE_URL}
         pageImageURL={PAGE_IMAGE_URL}
       />
 
-      {/* Global site tag (gtag.js) - Google Analytics */}
-      {/* <Script
-        src="https://www.googletagmanager.com/gtag/js?id=UA-201901673-1"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
+      {/* <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

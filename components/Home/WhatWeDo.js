@@ -4,7 +4,6 @@ import parse from "html-react-parser";
 import Link from "next/link";
 import Image from "next/image";
 import { API_URL } from "../../apiServices";
-import { encodeURL } from "../../utils/urlManager";
 import getSorting from "../../utils/getSorting";
 
 function WhatWeDo({ whatWeDoData, services }) {
@@ -30,7 +29,7 @@ function WhatWeDo({ whatWeDoData, services }) {
                 .slice(0, 6)
                 .map((service) => (
                   <Col md={4} lg={4} xs={6} className="mb-4" key={service._id}>
-                    <Link href={`/services/${encodeURL(service.heading)}`}>
+                    <Link href={`/services/${service.slug}`}>
                       <a>
                         <Card className="home_card">
                           <Card.Body>

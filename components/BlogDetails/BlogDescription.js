@@ -7,6 +7,7 @@ const BlogDescription = ({ blogPostData }) => (
   <Col lg={8} md={7} className="inform_leftSide">
     {parse(`${blogPostData?.blogDetails}`)}
     <BlogIcon
+      blogSlug={blogPostData?.slug}
       blogTitle={blogPostData?.title}
       blogImage={blogPostData?.blogImage}
     />

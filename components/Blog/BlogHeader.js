@@ -4,7 +4,6 @@ import { FiSearch } from "react-icons/fi";
 import { useRouter } from "next/router";
 import { Typeahead } from "react-bootstrap-typeahead";
 import { API_URL } from "../../apiServices";
-import { encodeURL } from "../../utils/urlManager";
 
 const BlogHeader = ({ data }) => {
   const router = useRouter();
@@ -13,14 +12,14 @@ const BlogHeader = ({ data }) => {
     ? data.blogs.map((blog, index) => ({
         id: index,
         label: blog.title,
-        value: blog.title,
+        value: blog.slug,
       }))
     : [];
 
   // Submit the request
   const handleOnSelect = (item) => {
     if (item && item.length !== 0 && item[0].value)
-      router.push("/blog/" + encodeURL(item[0].value));
+      router.push("/blog/" + item[0].value);
   };
 
   return (
