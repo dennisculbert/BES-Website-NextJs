@@ -9,19 +9,19 @@ function CompanyInfo({ data }) {
           <Row className="my-md-5 my-3 company_info_detail">
             <Col md={3} xs={6}>
               <h1 className="text-white mb-3">{data.happyClients}+</h1>
-              <p className="text-light">Happy Clients</p>
+              <p className="text-light">Clients</p>
             </Col>
             <Col md={3} xs={6}>
               <h1 className="text-white mb-3">{data.completedProjects}+</h1>
-              <p className="text-light">Completed Projects</p>
+              <p className="text-light">Projects</p>
             </Col>
             <Col md={3} xs={6}>
               <h1 className="text-white mb-3">{data.dedicatedMembers}+</h1>
-              <p className="text-light">Dedicated Members</p>
+              <p className="text-light">Team Size</p>
             </Col>
             <Col md={3} xs={6}>
               <h1 className="text-white mb-3">{data.liveProjects}+</h1>
-              <p className="text-light">Live Projects</p>
+              <p className="text-light">Years of Experience</p>
             </Col>
           </Row>
         </Container>
