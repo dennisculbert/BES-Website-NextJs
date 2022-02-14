@@ -22,6 +22,10 @@ function PageHead({ pageMeta, pageURL, pageImageURL }) {
       <meta property="og:title" content={pageMeta?.title} />
       <meta property="og:description" content={pageMeta?.description} />
       <meta property="og:image" content={pageImageURL} />
+      <meta
+        name="facebook-domain-verification"
+        content="19o1zvz1svctmm34cmmegmwyh5wzk8"
+      />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
