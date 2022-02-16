@@ -30,7 +30,7 @@ const ServiceDetails = (props) => {
     <>
       <PageHead
         pageMeta={data?.meta}
-        pageURL={`${WEBSITE_URL}/services/${data?.slug}`}
+        pageURL={`${WEBSITE_URL}/services/${data?.serviceDetails?.slug}`}
         pageImageURL={`${API_URL}${data?.serviceDetails.serviceImage?.url}`}
       />
 

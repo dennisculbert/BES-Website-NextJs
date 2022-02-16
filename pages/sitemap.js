@@ -17,24 +17,26 @@ function sitemap() {
         <div>
           <h3>Website:</h3>
           <ul>
-            <a href="https://beyonderissolutions.com/">
-              <li>Home</li>
-            </a>
-            <a href="https://beyonderissolutions.com/case-study">
-              <li>Case Study</li>
-            </a>
-            <a href="https://beyonderissolutions.com/services">
-              <li>Services</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog">
-              <li>Blog</li>
-            </a>
-            <a href="">
-              <li>About</li>
-            </a>
-            <a href="https://beyonderissolutions.com/contact">
-              <li>Contact</li>
-            </a>
+            <li>
+              <a href="https://beyonderissolutions.com/">Home</a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/case-study">
+                Case Study
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/services">Services</a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog">Blog</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/contact">Contact</a>
+            </li>
           </ul>
         </div>
         {/* website section end */}
@@ -43,27 +45,41 @@ function sitemap() {
         <div>
           <h3>Services:</h3>
           <ul>
-            <a href="https://beyonderissolutions.com/services/CRM-&-ERP-Development">
-              <li>CRM & ERP Development</li>
-            </a>
-            <a href="https://beyonderissolutions.com/services/Ecommerce-Development">
-              <li>E-Commerce Development</li>
-            </a>
-            <a href="https://beyonderissolutions.com/services/Accounting-Software%E2%80%99s">
-              <li>Accounting Software&apos;s</li>
-            </a>
-            <a href="https://beyonderissolutions.com/services/Web-Development">
-              <li>Web Development</li>
-            </a>
-            <a href="https://beyonderissolutions.com/services/App-Development">
-              <li>App Development</li>
-            </a>
-            <a href="https://beyonderissolutions.com/services/Digital-Marketing">
-              <li>Digital Marketing</li>
-            </a>
-            <a href="https://beyonderissolutions.com/services/Graphic-Designing">
-              <li>Graphic Designing</li>
-            </a>
+            <li>
+              <a href="https://beyonderissolutions.com/services/CRM-and-ERP-Development">
+                CRM & ERP Development
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/services/Ecommerce-Development">
+                E-Commerce Development
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/services/Accounting-Software%E2%80%99s">
+                Accounting Software&apos;s
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/services/Web-Development">
+                Web Development
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/services/App-Development">
+                App Development
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/services/Digital-Marketing">
+                Digital Marketing
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/services/Graphic-Design">
+                Graphic Design
+              </a>
+            </li>
           </ul>
         </div>
         {/*  Services Section End  */}
@@ -72,59 +88,141 @@ function sitemap() {
         <div>
           <h3>Blogs:</h3>
           <ul>
-            <a href="https://beyonderissolutions.com/blog/Why-is-CRM-Beneficial-for-businesses">
-              <li>Why is CRM Beneficial for businesses</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/Relationship-of-E-Commerce-and-Customer-Relationship-Management">
-              <li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Why-is-CRM-Beneficial-for-businesses">
+                Why is CRM Beneficial for businesses
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Relationship-of-E-Commerce-and-Customer-Relationship-Management">
                 Relationship of E Commerce and Customer Relationship Management
-              </li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/Importance-of-Social-Media-in-Digital-Marketing">
-              <li>Importance of Social Media in Digital Marketing</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/How-to-Calculate-Professional-Website-Development-Cost-in-Dubai">
-              <li>
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Importance-of-Social-Media-in-Digital-Marketing">
+                Importance of Social Media in Digital Marketing
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/How-to-Calculate-Professional-Website-Development-Cost-in-Dubai">
                 How to Calculate Professional Website Development Cost in Dubai
-              </li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/The-Pros-and-Cons-of-Integrating-CRM-in-your-Business">
-              <li>The Pros and Cons of Integrating CRM in your Business</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/How-Can-You-Empower-Your-E-Commerce-Store">
-              <li>How Can You Empower Your E Commerce Store</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/Custom-Website-Solutions-for-Businesses-in-Dubai">
-              <li>Custom Website Solutions for Businesses in Dubai</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make">
-              <li>7 Most Common Web Design Mistakes Small Businesses Make</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/6-Most-Important-Digital-Assets-for-E-Commerce-Business">
-              <li>6 Most Important Digital Assets for E Commerce Business</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses">
-              <li>
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/The-Pros-and-Cons-of-Integrating-CRM-in-your-Business">
+                The Pros and Cons of Integrating CRM in your Business
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/How-Can-You-Empower-Your-E-Commerce-Store">
+                How Can You Empower Your E Commerce Store
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Custom-Website-Solutions-for-Businesses-in-Dubai">
+                Custom Website Solutions for Businesses in Dubai
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/7-Most-Common-Web-Design-Mistakes-Small-Businesses-Make">
+                7 Most Common Web Design Mistakes Small Businesses Make
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/6-Most-Important-Digital-Assets-for-E-Commerce-Business">
+                6 Most Important Digital Assets for E Commerce Business
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/What-Is-CRM-And-ERP-And-How-It-Can-Be-Beneficial-For-Businesses">
                 What Is CRM And ERP And How It Can Be Beneficial For Businesses
-              </li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/Importance-of-Search-Engine-Optimization-for-Small-Businesses">
-              <li>
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Importance-of-Search-Engine-Optimization-for-Small-Businesses">
                 Importance of Search Engine Optimization for Small Businesses
-              </li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/Why-Small-Businesses-Need-Custom-Software-Development">
-              <li>Why Small Businesses Need Custom Software Development</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/Does-My-Small-Business-Need-a-Website">
-              <li>Does My Small Business Need a Website</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/Key-Benefits-of-Having-a-Mobile-App-for-Your-Business">
-              <li>Key Benefits of Having a Mobile App for Your Business</li>
-            </a>
-            <a href="https://beyonderissolutions.com/blog/How-to-Outsource-Your-Business-Digital-Marketing">
-              <li>How to Outsource Your Business Digital Marketing</li>
-            </a>
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Why-Small-Businesses-Need-Custom-Software-Development">
+                Why Small Businesses Need Custom Software Development
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Does-My-Small-Business-Need-a-Website">
+                Does My Small Business Need a Website
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Key-Benefits-of-Having-a-Mobile-App-for-Your-Business">
+                Key Benefits of Having a Mobile App for Your Business
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/How-to-Outsource-Your-Business-Digital-Marketing">
+                How to Outsource Your Business Digital Marketing
+              </a>
+            </li>
+            {/* djgsdfsdfsdgsfdhsfdhsgdfsdfshdfshgdsfdfshdsgdgs */}
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Ways-to-Setup-a-Successful-E-Commerce-Business-in-Dubai-UAE">
+                Ways to Setup a Successful E Commerce Business in Dubai UAE
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/The-Impact-of-CRM-on-Your-Business">
+                The Impact of CRM on Your Business
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/best-online-software-for-accounting-book-keeping-invoicing-in-2022">
+                Best Online Software for Accounting, Bookkeeping & Invoicing in
+                2022
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Dubai-Aims-To-Attract-More-Global-Digital-Companies-To-Become-A-World-Leading-Digital-Economy">
+                Dubai Aims To Attract More Global Digital Companies To Become A
+                World Leading Digital Economy
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/6-Things-to-Know-About-Enterprise-Resource-Planning-Software's">
+                6 Things to Know About Enterprise Resource Planning Software
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/Why-You-Must-Have-HR-Payroll-Software-If-You-Have-a-Business-in-UAE">
+                Why You Must Have HR Payroll Software If You Have a Business in
+                UAE
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/4-Signs-You-Need-an-Accounting-Software-for-Your-Business">
+                4 Signs You Need an Accounting Software for Your Business
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/6-Trends-for-Digital-Marketing-in-2022">
+                6 Trends for Digital Marketing in 2022
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/How-to-Make-Sure-Your-Website-is-Secure-From-Hackers">
+                How to Make Sure Your Website is Secure From Hackers
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/6-Technology-Trends-Shaping-Dubai's-Digital-Future-In-2022">
+                6 Technology Trends Shaping Dubai Digital Future In 2022
+              </a>
+            </li>
+            <li>
+              <a href="https://beyonderissolutions.com/blog/What-Features-Are-Included-in-Your-Business-Event-Management-Software">
+                What Features Are Included in Your Business Event Management
+                Software
+              </a>
+            </li>
           </ul>
         </div>
         {/* Blog Section End */}
