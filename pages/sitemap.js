@@ -1,13 +1,22 @@
-import Head from "next/head";
+import PageHead from "../components/PageHead";
+
+const sitemapMeta = {
+  title: "Sitemap",
+  description: "Sitemap of Beyond Eris Solutions",
+  keywords: "sitemap",
+};
+const PAGE_URL = "https://beyonderissolutions.com/sitemap";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 function sitemap() {
   return (
     <>
-      <Head>
-        <title>
-          Sitemap | Beyond Eris Solutions | Software Development Company
-        </title>
-      </Head>
+      <PageHead
+        pageMeta={sitemapMeta}
+        pageURL={PAGE_URL}
+        pageImageURL={PAGE_IMAGE_URL}
+      />
       {/* main div */}
       <div className="sitemap" style={{ margin: " 0px 150px" }}>
         <div style={{ textAlign: "center" }}>

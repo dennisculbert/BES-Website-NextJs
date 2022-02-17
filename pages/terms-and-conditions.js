@@ -1,15 +1,23 @@
-import Head from "next/head";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
+import PageHead from "../components/PageHead";
+
+const termsAndConditionsMeta = {
+  title: "Terms and Conditions",
+  description: "Terms and Conditions of Beyond Eris Solutions",
+  keywords: "terms,beyonderissolutions",
+};
+const PAGE_URL = "https://beyonderissolutions.com/terms-and-conditions";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 const TermsAndConditions = () => (
   <>
-    <Head>
-      <title>
-        Terms & Conditions | Beyond Eris Solutions | Software Development
-        Company
-      </title>
-    </Head>
+    <PageHead
+      pageMeta={termsAndConditionsMeta}
+      pageURL={PAGE_URL}
+      pageImageURL={PAGE_IMAGE_URL}
+    />
 
     <div>
       <Container className="main-space">

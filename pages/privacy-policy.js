@@ -1,14 +1,23 @@
-import Head from "next/head";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
+import PageHead from "../components/PageHead";
+
+const privayPolicyMeta = {
+  title: "Privacy Policy",
+  description: "Privacy Policy of Beyond Eris Solutions",
+  keywords: "privacy,policy,beyonderissolutions",
+};
+const PAGE_URL = "https://beyonderissolutions.com/privacy-policy";
+const PAGE_IMAGE_URL =
+  "https://admin.beyonderissolutions.com/media/images/header/home%20logo.png";
 
 const PrivacyPolicy = () => (
   <>
-    <Head>
-      <title>
-        Privacy Policy | Beyond Eris Solutions | Software Development Company
-      </title>
-    </Head>
+    <PageHead
+      pageMeta={privayPolicyMeta}
+      pageURL={PAGE_URL}
+      pageImageURL={PAGE_IMAGE_URL}
+    />
     <div>
       <Container className="main-space">
         <Row>
