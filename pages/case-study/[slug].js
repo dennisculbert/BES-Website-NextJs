@@ -130,7 +130,9 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   // params contains the post `slug`.
   // If the route is like /posts/ABC, then params.slug is ABC
-  const caseStudyDetail = await getCaseStudyDetail(params.slug);
+  const caseStudyDetail = await getCaseStudyDetail(
+    encodeURIComponent(params.slug)
+  );
   const { banner } = await getCaseStudyData();
   const data = { ...caseStudyDetail, banner };
   const header = await getHeaderData();

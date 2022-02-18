@@ -89,7 +89,7 @@ export async function getStaticProps({ params }) {
   // params contains the post `slug`.
   // If the route is like /blog/ABC, then params.slug is ABC
 
-  const blogPostData = await getBlogDetails(params.slug);
+  const blogPostData = await getBlogDetails(encodeURIComponent(params.slug));
   const blogData = await getBlogsData();
   const header = await getHeaderData();
   const footer = await getFooterData();
