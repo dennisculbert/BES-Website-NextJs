@@ -65,7 +65,7 @@ function sitemap() {
               </a>
             </li>
             <li>
-              <a href="https://beyonderissolutions.com/services/Accounting-Software%E2%80%99s">
+              <a href="https://beyonderissolutions.com/services/Accounting-Softwares">
                 Accounting Software&apos;s
               </a>
             </li>
