@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import Head from "next/head";
+import FacebookPixel from "./SEO/FacebookPixel";
 
 function PageHead({ pageMeta, pageURL, pageImageURL }) {
   return (
@@ -33,6 +34,9 @@ function PageHead({ pageMeta, pageURL, pageImageURL }) {
       <meta property="twitter:title" content={pageMeta?.title} />
       <meta property="twitter:description" content={pageMeta?.description} />
       <meta property="twitter:image" content={pageImageURL} />
+
+      {/* Facebook Pixel */}
+      <FacebookPixel />
     </Head>
   );
 }
