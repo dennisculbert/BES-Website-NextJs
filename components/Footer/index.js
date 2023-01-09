@@ -231,7 +231,7 @@ function Footer({ footerData, contactData, serviceData }) {
           <Container>
             <Row className="footerText_last">
               <p className="mb-0">
-                Copyright © 2021{" "}
+                Copyright © {new Date().getFullYear()}
                 <Link href="/">
                   <a>
                     <span>Beyond Eris Solutions.</span>
